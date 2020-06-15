@@ -3,6 +3,7 @@ package pl.korwinbieniek;
 import pl.korwinbieniek.Ex11to20.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
+import pl.korwinbieniek.Ex31to40.*;
 
 import static pl.korwinbieniek.Ex1to10.Ex10.Ex10calculation;
 import static pl.korwinbieniek.Ex1to10.Ex4.printSomeNumbers;
@@ -78,17 +79,47 @@ public class Main {
         //System.out.println(ex23.binToHex(11011000));
         //Ex24
         Ex24 ex24 = new Ex24();
+        //System.out.println(ex24.binToOct(1000));
         //Ex25
         Ex25 ex25 = new Ex25();
+        //ex25.octToDec(10);
         //Ex26
         Ex26 ex26 = new Ex26();
+        //System.out.println(ex26.octToBin(11));
         //Ex27
         Ex27 ex27 = new Ex27();
+        //System.out.println(ex27.octToHex(25));
         //Ex28
         Ex28 ex28 = new Ex28();
+        //System.out.println(ex28.hexToDec("4F"));
         //Ex29
         Ex29 ex29 = new Ex29();
+        //ex29.hexToBin("4F");
         //Ex30
         Ex30 ex30 = new Ex30();
+        //System.out.println(ex30.hexToOct("40"));
+        //Ex31
+        Ex31 ex31 = new Ex31();
+        //ex31.getJavaVersion();
+        //Ex32
+        Ex32 ex32 = new Ex32();
+        //ex32.compareTwoNumbers();
+        //Ex33
+        Ex33 ex33 = new Ex33();
+        System.out.println(ex33.computeDigits());
+        //Ex34
+        Ex34 ex34 = new Ex34();
+        //Ex35
+        Ex35 ex35 = new Ex35();
+        //Ex36
+        Ex36 ex36 = new Ex36();
+        //Ex37
+        Ex37 ex37 = new Ex37();
+        //Ex38
+        Ex38 ex38 = new Ex38();
+        //Ex39
+        Ex39 ex39 = new Ex39();
+        //Ex40
+        Ex40 ex40 = new Ex40();
     }
 }
