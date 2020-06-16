@@ -134,21 +134,30 @@ public class Main {
         //ex41.printASCII('5');
         //Ex42
         Ex42 ex42 = new Ex42();
+        //ex42.showPassword();
         //Ex43
         Ex43 ex43 = new Ex43();
+        //ex43.twinkleTwinkle();
         //Ex44
         Ex44 ex44 = new Ex44();
+        //ex44.calcNs();
         //Ex45
         Ex45 ex45 = new Ex45();
+        //ex45.returnFileSize();
         //Ex46
         Ex46 ex46 = new Ex46();
+        //ex46.returnTime();
         //Ex47
         Ex47 ex47 = new Ex47();
+        //ex47.returnTimeFormatted();
         //Ex48
         Ex48 ex48 = new Ex48();
+        //ex48.printOddNumbers();
         //Ex49
         Ex49 ex49 = new Ex49();
+        //System.out.println(ex49.evenOrOdd(13));
         //Ex50
         Ex50 ex50 = new Ex50();
+        ex50.divisibleNumbers();
     }
 }
