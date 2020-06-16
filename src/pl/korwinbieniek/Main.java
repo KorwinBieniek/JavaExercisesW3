@@ -4,6 +4,7 @@ import pl.korwinbieniek.Ex11to20.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
+import pl.korwinbieniek.Ex41to50.*;
 
 import static pl.korwinbieniek.Ex1to10.Ex10.Ex10calculation;
 import static pl.korwinbieniek.Ex1to10.Ex4.printSomeNumbers;
@@ -106,20 +107,48 @@ public class Main {
         //ex32.compareTwoNumbers();
         //Ex33
         Ex33 ex33 = new Ex33();
-        System.out.println(ex33.computeDigits());
+        //System.out.println(ex33.computeDigits());
         //Ex34
         Ex34 ex34 = new Ex34();
+        //System.out.println("Area of hexagon: " + ex34.areaOfHexagon(6));
         //Ex35
         Ex35 ex35 = new Ex35();
+        //System.out.println("Area of hexagon: " + ex35.polygonArea(7, 6));
         //Ex36
         Ex36 ex36 = new Ex36();
+        //System.out.println(ex36.distanceBetweenPoints(25,35,35.5,25.5) + " Kilometers");
         //Ex37
         Ex37 ex37 = new Ex37();
+        //System.out.println(ex37.reverseString("Korwin Bieniek"));
         //Ex38
         Ex38 ex38 = new Ex38();
+        //ex38.countDigits("Na. słonecznej plaży opala. się 13,? rosłych mężczyzn.");
         //Ex39
         Ex39 ex39 = new Ex39();
+        //System.out.println(ex39.countCombinations());
         //Ex40
         Ex40 ex40 = new Ex40();
+        //ex40.availableCharSets();
+        //Ex41
+        Ex41 ex41 = new Ex41();
+        //ex41.printASCII('5');
+        //Ex42
+        Ex42 ex42 = new Ex42();
+        //Ex43
+        Ex43 ex43 = new Ex43();
+        //Ex44
+        Ex44 ex44 = new Ex44();
+        //Ex45
+        Ex45 ex45 = new Ex45();
+        //Ex46
+        Ex46 ex46 = new Ex46();
+        //Ex47
+        Ex47 ex47 = new Ex47();
+        //Ex48
+        Ex48 ex48 = new Ex48();
+        //Ex49
+        Ex49 ex49 = new Ex49();
+        //Ex50
+        Ex50 ex50 = new Ex50();
     }
 }
