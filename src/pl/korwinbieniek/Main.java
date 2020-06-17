@@ -5,6 +5,9 @@ import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
 import pl.korwinbieniek.Ex41to50.*;
+import pl.korwinbieniek.Ex51to60.*;
+import pl.korwinbieniek.Ex61to70.*;
+import pl.korwinbieniek.Ex71to80.*;
 
 import static pl.korwinbieniek.Ex1to10.Ex10.Ex10calculation;
 import static pl.korwinbieniek.Ex1to10.Ex4.printSomeNumbers;
@@ -158,6 +161,86 @@ public class Main {
         //System.out.println(ex49.evenOrOdd(13));
         //Ex50
         Ex50 ex50 = new Ex50();
-        ex50.divisibleNumbers();
+        //ex50.divisibleNumbers();
+        //Ex51
+        Ex51 ex51 = new Ex51();
+        //System.out.println(ex51.stringToInt("4"));
+        //Ex52
+        Ex52 ex52 = new Ex52();
+        //System.out.println(ex52.equalsThird());
+        //Ex53
+        Ex53 ex53 = new Ex53();
+        //ex53.greaterThanThird();
+        //Ex54
+        Ex54 ex54 = new Ex54();
+        //System.out.println(ex54.rightDigit());
+        //Ex55
+        Ex55 ex55 = new Ex55();
+        //ex55.secondsToTime(86399);
+        //Ex56
+        Ex56 ex56 = new Ex56();
+        //System.out.println(ex56.divisibleRangeOfNo(5,20,3));
+        //Ex57
+        Ex57 ex57 = new Ex57();
+        //System.out.println(ex57.countFactors(25));
+        //Ex58
+        Ex58 ex58 = new Ex58();
+        //ex58.toUpperFirst("the quick brown fox jumps over the lazy dog.");
+        //Ex59
+        Ex59 ex59 = new Ex59();
+        //System.out.println(ex59.toLower("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. "));
+        //Ex60
+        Ex60 ex60 = new Ex60();
+        //ex60.findPenultimate("the quick brown fox jumps over the lazy dog.");
+        //Ex61
+        Ex61 ex61 = new Ex61();
+        //ex61.reverseAString("Pies i kot");
+        //Ex62
+        Ex62 ex62 = new Ex62();
+        //System.out.println(ex62.moreThanSubstraction());
+        //Ex63
+        Ex63 ex63 = new Ex63();
+        //System.out.println(ex63.returnBigger());
+        //Ex64
+        Ex64 ex64 = new Ex64();
+        //System.out.println(ex64.commonDigit());
+        //Ex65
+        Ex65 ex65 = new Ex65();
+        //System.out.println(ex65.manualModulus(19,7));
+        //Ex66
+        Ex66 ex66 = new Ex66();
+        //System.out.println(ex66.sum100Primes());
+        //Ex67
+        Ex67 ex67 = new Ex67();
+        //System.out.println(ex67.putInTheMiddle("Korwin Marek Bieniek", "to jest"));
+        //Ex68
+        Ex68 ex68 = new Ex68();
+        //ex68.copyOf3LastChars("Korwin");
+        //Ex69
+        Ex69 ex69 = new Ex69();
+        //System.out.println(ex69.returnHalfString("Python"));
+        //Ex70
+        Ex70 ex70 = new Ex70();
+        //System.out.println(ex70.concatenateStrings("Juliaaa", "Saferna"));
+        //Ex71
+        Ex71 ex71 = new Ex71();
+        //Ex71
+        Ex72 ex72 = new Ex72();
+        //Ex71
+        Ex73 ex73 = new Ex73();
+        //Ex71
+        Ex74 ex74 = new Ex74();
+        //Ex71
+        Ex75 ex75 = new Ex75();
+        //Ex71
+        Ex76 ex76 = new Ex76();
+        //Ex71
+        Ex77 ex77 = new Ex77();
+        //Ex71
+        Ex78 ex78 = new Ex78();
+        //Ex71
+        Ex79 ex79 = new Ex79();
+        //Ex71
+        Ex80 ex80 = new Ex80();
     }
 }
