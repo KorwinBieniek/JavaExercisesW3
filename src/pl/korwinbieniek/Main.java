@@ -224,23 +224,24 @@ public class Main {
         //System.out.println(ex70.concatenateStrings("Juliaaa", "Saferna"));
         //Ex71
         Ex71 ex71 = new Ex71();
-        //Ex71
+        ex71.cnctWoFirstChar("Pies", "kot");
+        //Ex72
         Ex72 ex72 = new Ex72();
-        //Ex71
+        //Ex73
         Ex73 ex73 = new Ex73();
-        //Ex71
+        //Ex74
         Ex74 ex74 = new Ex74();
-        //Ex71
+        //Ex75
         Ex75 ex75 = new Ex75();
-        //Ex71
+        //Ex76
         Ex76 ex76 = new Ex76();
-        //Ex71
+        //Ex77
         Ex77 ex77 = new Ex77();
-        //Ex71
+        //Ex78
         Ex78 ex78 = new Ex78();
-        //Ex71
+        //Ex79
         Ex79 ex79 = new Ex79();
-        //Ex71
+        //Ex80
         Ex80 ex80 = new Ex80();
     }
 }
