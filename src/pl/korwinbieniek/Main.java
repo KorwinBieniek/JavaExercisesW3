@@ -224,17 +224,24 @@ public class Main {
         //System.out.println(ex70.concatenateStrings("Juliaaa", "Saferna"));
         //Ex71
         Ex71 ex71 = new Ex71();
-        ex71.cnctWoFirstChar("Pies", "kot");
+        //ex71.cnctWoFirstChar("Pies", "kot");
         //Ex72
         Ex72 ex72 = new Ex72();
+        //System.out.println(ex72.hashForString("ko"));
         //Ex73
         Ex73 ex73 = new Ex73();
+        //ex73.newString("pies","lol");
         //Ex74
         Ex74 ex74 = new Ex74();
+        int[] array = new int[5];
+        int[] array2 = new int[5];
+        //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
+        //System.out.println(ex75.firstAndLast(array));
         //Ex76
         Ex76 ex76 = new Ex76();
+        //System.out.println(ex76.firstAndLastTwo(array, array2));
         //Ex77
         Ex77 ex77 = new Ex77();
         //Ex78
