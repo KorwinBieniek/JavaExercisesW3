@@ -8,6 +8,10 @@ import pl.korwinbieniek.Ex41to50.*;
 import pl.korwinbieniek.Ex51to60.*;
 import pl.korwinbieniek.Ex61to70.*;
 import pl.korwinbieniek.Ex71to80.*;
+import pl.korwinbieniek.Ex81to90.*;
+import pl.korwinbieniek.Ex91to100.*;
+
+import java.util.Arrays;
 
 import static pl.korwinbieniek.Ex1to10.Ex10.Ex10calculation;
 import static pl.korwinbieniek.Ex1to10.Ex4.printSomeNumbers;
@@ -235,6 +239,8 @@ public class Main {
         Ex74 ex74 = new Ex74();
         int[] array = new int[5];
         int[] array2 = new int[5];
+        int[] arr1 = {0,2,4,6,8};
+        int[] arr2 = {1,3,5,7,9,11};
         //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
@@ -244,11 +250,65 @@ public class Main {
         //System.out.println(ex76.firstAndLastTwo(array, array2));
         //Ex77
         Ex77 ex77 = new Ex77();
+        //System.out.println(Arrays.toString(ex77.lastAndFirst(array, array2)));
         //Ex78
         Ex78 ex78 = new Ex78();
+        //System.out.println(ex78.contains4Or7(arr1));
         //Ex79
         Ex79 ex79 = new Ex79();
+        //System.out.println(Arrays.toString(ex79.shiftToLeft(arr1)));
         //Ex80
         Ex80 ex80 = new Ex80();
+        //System.out.println(ex80.maxFromArray(arr1));
+        //Ex81
+        Ex81 ex81 = new Ex81();
+        //System.out.println(Arrays.toString(ex81.swapTwoArrays(arr1)));
+        //Ex82
+        Ex82 ex82 = new Ex82();
+        //System.out.println(ex82.firstMidLastArray(arr2));
+        //Ex83
+        Ex83 ex83 = new Ex83();
+        //System.out.println(Arrays.toString(ex83.multiplyArray(arr1, arr2)));
+        //Ex84
+        Ex84 ex84 = new Ex84();
+        //System.out.println(ex84.last3Digits("Python"));
+        //Ex85
+        Ex85 ex85 = new Ex85();
+        //ex85.startsWithAWord("Hello how are you?", "Hello");
+        //Ex86
+        Ex86 ex86 = new Ex86();
+        //System.out.println(ex86.returnOne(10));
+        //Ex87
+        Ex87 ex87 = new Ex87();
+        //ex87.returnDigitEnglish(972);
+        //Ex88
+        Ex88 ex88 = new Ex88();
+        //ex88.Exercise88();
+        //Ex89
+        Ex89 ex89 = new Ex89();
+        //ex89.Exercise89();
+        //Ex90
+        Ex90 ex90 = new Ex90();
+        //ex90.Exercise90();
+        //Ex91
+        Ex91 ex91 = new Ex91();
+        //Ex92
+        Ex92 ex92 = new Ex92();
+        //Ex93
+        Ex93 ex93 = new Ex93();
+        //Ex94
+        Ex94 ex94 = new Ex94();
+        //Ex95
+        Ex95 ex95 = new Ex95();
+        //Ex96
+        Ex96 ex96 = new Ex96();
+        //Ex97
+        Ex97 ex97 = new Ex97();
+        //Ex98
+        Ex98 ex98 = new Ex98();
+        //Ex99
+        Ex99 ex99 = new Ex99();
+        //Ex100
+        Ex100 ex100 = new Ex100();
     }
 }
