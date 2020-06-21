@@ -239,8 +239,8 @@ public class Main {
         Ex74 ex74 = new Ex74();
         int[] array = new int[5];
         int[] array2 = new int[5];
-        int[] arr1 = {0,2,4,6,8};
-        int[] arr2 = {1,3,5,7,9,11};
+        int[] arr1 = {1,2,3,4,5,6};
+        int[] arr2 = {-1,3,4,7,6,7};
         //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
@@ -292,23 +292,33 @@ public class Main {
         //ex90.Exercise90();
         //Ex91
         Ex91 ex91 = new Ex91();
+        //ex91.timeToCompile();
         //Ex92
         Ex92 ex92 = new Ex92();
+        //ex92.oddEvenInArray(arr2);
         //Ex93
         Ex93 ex93 = new Ex93();
+        //System.out.println(ex93.next10Next20(arr2));
         //Ex94
         Ex94 ex94 = new Ex94();
+        //System.out.println(Arrays.toString(ex94.rearrangeArray(arr2)));
         //Ex95
         Ex95 ex95 = new Ex95();
+        //System.out.println(Arrays.toString(ex95.stringArray(17)));
         //Ex96
         Ex96 ex96 = new Ex96();
+        //System.out.println(ex96.tenThenTwenty(arr1));
         //Ex97
         Ex97 ex97 = new Ex97();
+        //System.out.println(ex97.specificNumberNextTo(arr2, 5));
         //Ex98
         Ex98 ex98 = new Ex98();
+        //System.out.println(ex98.TwentyXThree(arr1));
         //Ex99
         Ex99 ex99 = new Ex99();
+        //System.out.println(ex99.AdjacentForSpecific(arr1, 5));
         //Ex100
         Ex100 ex100 = new Ex100();
+        //System.out.println(ex100.differsByOne(arr1, arr2));
     }
 }
