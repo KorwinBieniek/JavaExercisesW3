@@ -1,5 +1,6 @@
 package pl.korwinbieniek;
 
+import pl.korwinbieniek.Ex101to110.*;
 import pl.korwinbieniek.Ex11to20.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
@@ -239,8 +240,8 @@ public class Main {
         Ex74 ex74 = new Ex74();
         int[] array = new int[5];
         int[] array2 = new int[5];
-        int[] arr1 = {1,2,3,4,5,6};
-        int[] arr2 = {-1,3,4,7,6,7};
+        int[] arr1 = {1, 2, 3, 4, 5, 6, 10, 10, 20, 20, 20};
+        int[] arr2 = {-1, 3, 4, 7, 6, 7};
         //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
@@ -320,5 +321,457 @@ public class Main {
         //Ex100
         Ex100 ex100 = new Ex100();
         //System.out.println(ex100.differsByOne(arr1, arr2));
+//Ex101
+        Ex101 ex101 = new Ex101();
+        //System.out.println(ex101.TensAndTwenties(arr1));
+//Ex102
+        Ex102 ex102 = new Ex102();
+        //System.out.println(ex102.TensAndThirties(arr1));
+
+//Ex103
+        Ex103 ex103 = new Ex103();
+
+//Ex104
+        Ex104 ex104 = new Ex104();
+
+//Ex105
+        Ex105 ex105 = new Ex105();
+
+//Ex106
+        Ex106 ex106 = new Ex106();
+
+//Ex107
+        Ex107 ex107 = new Ex107();
+
+//Ex108
+        Ex108 ex108 = new Ex108();
+
+//Ex109
+        Ex109 ex109 = new Ex109();
+
+//Ex110
+        Ex110 ex110 = new Ex110();
+
+////Ex111
+//        Ex111 ex111 = new Ex111();
+//
+////Ex112
+//        Ex112 ex112 = new Ex112();
+//
+////Ex113
+//        Ex113 ex113 = new Ex113();
+//
+////Ex114
+//        Ex114 ex114 = new Ex114();
+//
+////Ex115
+//        Ex115 ex115 = new Ex115();
+//
+////Ex116
+//        Ex116 ex116 = new Ex116();
+//
+////Ex117
+//        Ex117 ex117 = new Ex117();
+//
+////Ex118
+//        Ex118 ex118 = new Ex118();
+//
+////Ex119
+//        Ex119 ex119 = new Ex119();
+//
+////Ex120
+//        Ex120 ex120 = new Ex120();
+//
+////Ex121
+//        Ex121 ex121 = new Ex121();
+//
+////Ex122
+//        Ex122 ex122 = new Ex122();
+//
+////Ex123
+//        Ex123 ex123 = new Ex123();
+//
+////Ex124
+//        Ex124 ex124 = new Ex124();
+//
+////Ex125
+//        Ex125 ex125 = new Ex125();
+//
+////Ex126
+//        Ex126 ex126 = new Ex126();
+//
+////Ex127
+//        Ex127 ex127 = new Ex127();
+//
+////Ex128
+//        Ex128 ex128 = new Ex128();
+//
+////Ex129
+//        Ex129 ex129 = new Ex129();
+//
+////Ex130
+//        Ex130 ex130 = new Ex130();
+//
+////Ex131
+//        Ex131 ex131 = new Ex131();
+//
+////Ex132
+//        Ex132 ex132 = new Ex132();
+//
+////Ex133
+//        Ex133 ex133 = new Ex133();
+//
+////Ex134
+//        Ex134 ex134 = new Ex134();
+//
+////Ex135
+//        Ex135 ex135 = new Ex135();
+//
+////Ex136
+//        Ex136 ex136 = new Ex136();
+//
+////Ex137
+//        Ex137 ex137 = new Ex137();
+//
+////Ex138
+//        Ex138 ex138 = new Ex138();
+//
+////Ex139
+//        Ex139 ex139 = new Ex139();
+//
+////Ex140
+//        Ex140 ex140 = new Ex140();
+//
+////Ex141
+//        Ex141 ex141 = new Ex141();
+//
+////Ex142
+//        Ex142 ex142 = new Ex142();
+//
+////Ex143
+//        Ex143 ex143 = new Ex143();
+//
+////Ex144
+//        Ex144 ex144 = new Ex144();
+//
+////Ex145
+//        Ex145 ex145 = new Ex145();
+//
+////Ex146
+//        Ex146 ex146 = new Ex146();
+//
+////Ex147
+//        Ex147 ex147 = new Ex147();
+//
+////Ex148
+//        Ex148 ex148 = new Ex148();
+//
+////Ex149
+//        Ex149 ex149 = new Ex149();
+//
+////Ex150
+//        Ex150 ex150 = new Ex150();
+//
+////Ex151
+//        Ex151 ex151 = new Ex151();
+//
+////Ex152
+//        Ex152 ex152 = new Ex152();
+//
+////Ex153
+//        Ex153 ex153 = new Ex153();
+//
+////Ex154
+//        Ex154 ex154 = new Ex154();
+//
+////Ex155
+//        Ex155 ex155 = new Ex155();
+//
+////Ex156
+//        Ex156 ex156 = new Ex156();
+//
+////Ex157
+//        Ex157 ex157 = new Ex157();
+//
+////Ex158
+//        Ex158 ex158 = new Ex158();
+//
+////Ex159
+//        Ex159 ex159 = new Ex159();
+//
+////Ex160
+//        Ex160 ex160 = new Ex160();
+//
+////Ex161
+//        Ex161 ex161 = new Ex161();
+//
+////Ex162
+//        Ex162 ex162 = new Ex162();
+//
+////Ex163
+//        Ex163 ex163 = new Ex163();
+//
+////Ex164
+//        Ex164 ex164 = new Ex164();
+//
+////Ex165
+//        Ex165 ex165 = new Ex165();
+//
+////Ex166
+//        Ex166 ex166 = new Ex166();
+//
+////Ex167
+//        Ex167 ex167 = new Ex167();
+//
+////Ex168
+//        Ex168 ex168 = new Ex168();
+//
+////Ex169
+//        Ex169 ex169 = new Ex169();
+//
+////Ex170
+//        Ex170 ex170 = new Ex170();
+//
+////Ex171
+//        Ex171 ex171 = new Ex171();
+//
+////Ex172
+//        Ex172 ex172 = new Ex172();
+//
+////Ex173
+//        Ex173 ex173 = new Ex173();
+//
+////Ex174
+//        Ex174 ex174 = new Ex174();
+//
+////Ex175
+//        Ex175 ex175 = new Ex175();
+//
+////Ex176
+//        Ex176 ex176 = new Ex176();
+//
+////Ex177
+//        Ex177 ex177 = new Ex177();
+//
+////Ex178
+//        Ex178 ex178 = new Ex178();
+//
+////Ex179
+//        Ex179 ex179 = new Ex179();
+//
+////Ex180
+//        Ex180 ex180 = new Ex180();
+//
+////Ex181
+//        Ex181 ex181 = new Ex181();
+//
+////Ex182
+//        Ex182 ex182 = new Ex182();
+//
+////Ex183
+//        Ex183 ex183 = new Ex183();
+//
+////Ex184
+//        Ex184 ex184 = new Ex184();
+//
+////Ex185
+//        Ex185 ex185 = new Ex185();
+//
+////Ex186
+//        Ex186 ex186 = new Ex186();
+//
+////Ex187
+//        Ex187 ex187 = new Ex187();
+//
+////Ex188
+//        Ex188 ex188 = new Ex188();
+//
+////Ex189
+//        Ex189 ex189 = new Ex189();
+//
+////Ex190
+//        Ex190 ex190 = new Ex190();
+//
+////Ex191
+//        Ex191 ex191 = new Ex191();
+//
+////Ex192
+//        Ex192 ex192 = new Ex192();
+//
+////Ex193
+//        Ex193 ex193 = new Ex193();
+//
+////Ex194
+//        Ex194 ex194 = new Ex194();
+//
+////Ex195
+//        Ex195 ex195 = new Ex195();
+//
+////Ex196
+//        Ex196 ex196 = new Ex196();
+//
+////Ex197
+//        Ex197 ex197 = new Ex197();
+//
+////Ex198
+//        Ex198 ex198 = new Ex198();
+//
+////Ex199
+//        Ex199 ex199 = new Ex199();
+//
+////Ex200
+//        Ex200 ex200 = new Ex200();
+//
+////Ex201
+//        Ex201 ex201 = new Ex201();
+//
+////Ex202
+//        Ex202 ex202 = new Ex202();
+//
+////Ex203
+//        Ex203 ex203 = new Ex203();
+//
+////Ex204
+//        Ex204 ex204 = new Ex204();
+//
+////Ex205
+//        Ex205 ex205 = new Ex205();
+//
+////Ex206
+//        Ex206 ex206 = new Ex206();
+//
+////Ex207
+//        Ex207 ex207 = new Ex207();
+//
+////Ex208
+//        Ex208 ex208 = new Ex208();
+//
+////Ex209
+//        Ex209 ex209 = new Ex209();
+//
+////Ex210
+//        Ex210 ex210 = new Ex210();
+//
+////Ex211
+//        Ex211 ex211 = new Ex211();
+//
+////Ex212
+//        Ex212 ex212 = new Ex212();
+//
+////Ex213
+//        Ex213 ex213 = new Ex213();
+//
+////Ex214
+//        Ex214 ex214 = new Ex214();
+//
+////Ex215
+//        Ex215 ex215 = new Ex215();
+//
+////Ex216
+//        Ex216 ex216 = new Ex216();
+//
+////Ex217
+//        Ex217 ex217 = new Ex217();
+//
+////Ex218
+//        Ex218 ex218 = new Ex218();
+//
+////Ex219
+//        Ex219 ex219 = new Ex219();
+//
+////Ex220
+//        Ex220 ex220 = new Ex220();
+//
+////Ex221
+//        Ex221 ex221 = new Ex221();
+//
+////Ex222
+//        Ex222 ex222 = new Ex222();
+//
+////Ex223
+//        Ex223 ex223 = new Ex223();
+//
+////Ex224
+//        Ex224 ex224 = new Ex224();
+//
+////Ex225
+//        Ex225 ex225 = new Ex225();
+//
+////Ex226
+//        Ex226 ex226 = new Ex226();
+//
+////Ex227
+//        Ex227 ex227 = new Ex227();
+//
+////Ex228
+//        Ex228 ex228 = new Ex228();
+//
+////Ex229
+//        Ex229 ex229 = new Ex229();
+//
+////Ex230
+//        Ex230 ex230 = new Ex230();
+//
+////Ex231
+//        Ex231 ex231 = new Ex231();
+//
+////Ex232
+//        Ex232 ex232 = new Ex232();
+//
+////Ex233
+//        Ex233 ex233 = new Ex233();
+//
+////Ex234
+//        Ex234 ex234 = new Ex234();
+//
+////Ex235
+//        Ex235 ex235 = new Ex235();
+//
+////Ex236
+//        Ex236 ex236 = new Ex236();
+//
+////Ex237
+//        Ex237 ex237 = new Ex237();
+//
+////Ex238
+//        Ex238 ex238 = new Ex238();
+//
+////Ex239
+//        Ex239 ex239 = new Ex239();
+//
+////Ex240
+//        Ex240 ex240 = new Ex240();
+//
+////Ex241
+//        Ex241 ex241 = new Ex241();
+//
+////Ex242
+//        Ex242 ex242 = new Ex242();
+//
+////Ex243
+//        Ex243 ex243 = new Ex243();
+//
+////Ex244
+//        Ex244 ex244 = new Ex244();
+//
+////Ex245
+//        Ex245 ex245 = new Ex245();
+//
+////Ex246
+//        Ex246 ex246 = new Ex246();
+//
+////Ex247
+//        Ex247 ex247 = new Ex247();
+//
+////Ex248
+//        Ex248 ex248 = new Ex248();
+//
+////Ex249
+//        Ex249 ex249 = new Ex249();
+//
+////Ex250
+//        Ex250 ex250 = new Ex250();
+
+
     }
 }
