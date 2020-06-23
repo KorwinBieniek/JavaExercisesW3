@@ -330,6 +330,7 @@ public class Main {
 
 //Ex103
         Ex103 ex103 = new Ex103();
+        System.out.println(Arrays.toString(ex103.createArrayAfter10(arr1)));
 
 //Ex104
         Ex104 ex104 = new Ex104();
