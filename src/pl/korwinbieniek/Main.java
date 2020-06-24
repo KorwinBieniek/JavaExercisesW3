@@ -1,6 +1,7 @@
 package pl.korwinbieniek;
 
 import pl.korwinbieniek.Ex101to110.*;
+import pl.korwinbieniek.Ex111to120.*;
 import pl.korwinbieniek.Ex11to20.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
@@ -241,7 +242,7 @@ public class Main {
         int[] array = new int[5];
         int[] array2 = new int[5];
         int[] arr1 = {1, 2, 3, 4, 5, 6, 10, 10, 20, 20, 20};
-        int[] arr2 = {-1, 3, 4, 7, 6, 7};
+        int[] arr2 = {1, 3, 4, 7, 6, 7};
         //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
@@ -330,59 +331,68 @@ public class Main {
 
 //Ex103
         Ex103 ex103 = new Ex103();
-        System.out.println(Arrays.toString(ex103.createArrayAfter10(arr1)));
+        //System.out.println(Arrays.toString(ex103.createArrayAfter10(arr1)));
 
 //Ex104
         Ex104 ex104 = new Ex104();
-
+        //System.out.println(Arrays.toString(ex104.createArrayBefore10(arr1)));
 //Ex105
         Ex105 ex105 = new Ex105();
+        //System.out.println(ex105.firstAndLastTheSame(arr1));
 
 //Ex106
         Ex106 ex106 = new Ex106();
+        //System.out.println(Arrays.toString(ex106.leftShift(arr1)));
 
 //Ex107
         Ex107 ex107 = new Ex107();
+        //System.out.println(ex107.increasingAdjacent(arr1));
 
 //Ex108
         Ex108 ex108 = new Ex108();
+        //ex108.addDigitsUntilOne(777);
 
 //Ex109
         Ex109 ex109 = new Ex109();
+        //ex109.numberOfRows(56);
 
 //Ex110
         Ex110 ex110 = new Ex110();
+        //ex110.isPowerOf(66);
 
-////Ex111
-//        Ex111 ex111 = new Ex111();
-//
-////Ex112
-//        Ex112 ex112 = new Ex112();
-//
-////Ex113
-//        Ex113 ex113 = new Ex113();
-//
-////Ex114
-//        Ex114 ex114 = new Ex114();
-//
-////Ex115
-//        Ex115 ex115 = new Ex115();
-//
-////Ex116
-//        Ex116 ex116 = new Ex116();
-//
-////Ex117
-//        Ex117 ex117 = new Ex117();
-//
-////Ex118
-//        Ex118 ex118 = new Ex118();
-//
-////Ex119
-//        Ex119 ex119 = new Ex119();
-//
-////Ex120
-//        Ex120 ex120 = new Ex120();
-//
+//Ex111
+        Ex111 ex111 = new Ex111();
+        //System.out.println(ex111.addWithoutArithmetics(5,7));
+
+//Ex112
+        Ex112 ex112 = new Ex112();
+        //System.out.println(ex112.trailingZerosInFactorial(5040));
+
+//Ex113
+        Ex113 ex113 = new Ex113();
+        System.out.println(Arrays.toString(ex113.newSortedArray(arr1, arr2)));
+
+//Ex114
+        Ex114 ex114 = new Ex114();
+
+//Ex115
+        Ex115 ex115 = new Ex115();
+
+//Ex116
+        Ex116 ex116 = new Ex116();
+
+//Ex117
+        Ex117 ex117 = new Ex117();
+
+//Ex118
+        Ex118 ex118 = new Ex118();
+
+//Ex119
+        Ex119 ex119 = new Ex119();
+
+//Ex120
+        Ex120 ex120 = new Ex120();
+
 ////Ex121
 //        Ex121 ex121 = new Ex121();
 //
