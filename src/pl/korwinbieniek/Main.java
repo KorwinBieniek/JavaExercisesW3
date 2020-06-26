@@ -370,13 +370,15 @@ public class Main {
 
 //Ex113
         Ex113 ex113 = new Ex113();
-        System.out.println(Arrays.toString(ex113.newSortedArray(arr1, arr2)));
+        //System.out.println(Arrays.toString(ex113.newSortedArray(arr1, arr2)));
 
 //Ex114
         Ex114 ex114 = new Ex114();
+        //ex114.rotateOffset(" Kolacja i sniadanie", 12);
 
 //Ex115
         Ex115 ex115 = new Ex115();
+        //System.out.println(ex115.isPalindrome(64366346));
 
 //Ex116
         Ex116 ex116 = new Ex116();
