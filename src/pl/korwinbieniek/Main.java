@@ -382,19 +382,24 @@ public class Main {
 
 //Ex116
         Ex116 ex116 = new Ex116();
+        //ex116.fizzbuzz();
 
 //Ex117
         Ex117 ex117 = new Ex117();
+        //System.out.println(ex117.squareRoot(25));
 
 //Ex118
         Ex118 ex118 = new Ex118();
+        //ex118.firstString("Pies", "Pie");
 
 //Ex119
         Ex119 ex119 = new Ex119();
+        //ex119.findElement(arr1, 15);
 
 //Ex120
+        int[][] marr = {{1,2,3,4,5,6,7,8,9,10}, {11,12,13,14,15,16,17,18,19,20}};
         Ex120 ex120 = new Ex120();
-
+        //System.out.println(ex120.findXinMatrix(marr, 21));
 ////Ex121
 //        Ex121 ex121 = new Ex121();
 //
