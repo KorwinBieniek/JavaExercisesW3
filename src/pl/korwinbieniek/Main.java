@@ -3,6 +3,7 @@ package pl.korwinbieniek;
 import pl.korwinbieniek.Ex101to110.*;
 import pl.korwinbieniek.Ex111to120.*;
 import pl.korwinbieniek.Ex11to20.*;
+import pl.korwinbieniek.Ex121to130.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
@@ -14,6 +15,7 @@ import pl.korwinbieniek.Ex81to90.*;
 import pl.korwinbieniek.Ex91to100.*;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 
 import static pl.korwinbieniek.Ex1to10.Ex10.Ex10calculation;
 import static pl.korwinbieniek.Ex1to10.Ex4.printSomeNumbers;
@@ -400,35 +402,36 @@ public class Main {
         int[][] marr = {{1,2,3,4,5,6,7,8,9,10}, {11,12,13,14,15,16,17,18,19,20}};
         Ex120 ex120 = new Ex120();
         //System.out.println(ex120.findXinMatrix(marr, 21));
-////Ex121
-//        Ex121 ex121 = new Ex121();
-//
-////Ex122
-//        Ex122 ex122 = new Ex122();
-//
-////Ex123
-//        Ex123 ex123 = new Ex123();
-//
-////Ex124
-//        Ex124 ex124 = new Ex124();
-//
-////Ex125
-//        Ex125 ex125 = new Ex125();
-//
-////Ex126
-//        Ex126 ex126 = new Ex126();
-//
-////Ex127
-//        Ex127 ex127 = new Ex127();
-//
-////Ex128
-//        Ex128 ex128 = new Ex128();
-//
-////Ex129
-//        Ex129 ex129 = new Ex129();
-//
-////Ex130
-//        Ex130 ex130 = new Ex130();
+//Ex121
+        Ex121 ex121 = new Ex121();
+        LinkedList<Integer> llist = new LinkedList<Integer>();
+        //ex121.reverseLinkedList(llist);
+//Ex122
+        Ex122 ex122 = new Ex122();
+
+//Ex123
+        Ex123 ex123 = new Ex123();
+
+//Ex124
+        Ex124 ex124 = new Ex124();
+
+//Ex125
+        Ex125 ex125 = new Ex125();
+
+//Ex126
+        Ex126 ex126 = new Ex126();
+
+//Ex127
+        Ex127 ex127 = new Ex127();
+
+//Ex128
+        Ex128 ex128 = new Ex128();
+
+//Ex129
+        Ex129 ex129 = new Ex129();
+
+//Ex130
+        Ex130 ex130 = new Ex130();
 //
 ////Ex131
 //        Ex131 ex131 = new Ex131();
