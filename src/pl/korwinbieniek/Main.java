@@ -243,8 +243,8 @@ public class Main {
         Ex74 ex74 = new Ex74();
         int[] array = new int[5];
         int[] array2 = new int[5];
-        int[] arr1 = {1, 2, 3, 4, 5, 6, 10, 10, 20, 20, 20};
-        int[] arr2 = {1, 3, 4, 7, 6, 7};
+        int[] arr1 = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] arr2 = {-2,1,-3,4};
         //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
@@ -408,12 +408,15 @@ public class Main {
         //ex121.reverseLinkedList(llist);
 //Ex122
         Ex122 ex122 = new Ex122();
+        //System.out.println(ex122.biggestSumInSubarray(arr1));
 
 //Ex123
         Ex123 ex123 = new Ex123();
+        //System.out.println(ex123.smallestSumInSubarray(arr1));
 
 //Ex124
         Ex124 ex124 = new Ex124();
+        //System.out.println(ex124.findIndex(arr1,-5));
 
 //Ex125
         Ex125 ex125 = new Ex125();
