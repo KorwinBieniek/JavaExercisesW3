@@ -429,10 +429,11 @@ public class Main {
 
 //Ex128
         Ex128 ex128 = new Ex128();
-
+        int[] arr3 = {5,5,5,5,5,5,5,5,5,5};
+        //System.out.println(ex128.findMedian(arr3));
 //Ex129
         Ex129 ex129 = new Ex129();
-
+        //System.out.println(ex129.occurOnce(arr3));
 //Ex130
         Ex130 ex130 = new Ex130();
 //
