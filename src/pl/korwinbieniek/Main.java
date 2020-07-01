@@ -4,6 +4,7 @@ import pl.korwinbieniek.Ex101to110.*;
 import pl.korwinbieniek.Ex111to120.*;
 import pl.korwinbieniek.Ex11to20.*;
 import pl.korwinbieniek.Ex121to130.*;
+import pl.korwinbieniek.Ex131to140.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
@@ -429,44 +430,45 @@ public class Main {
 
 //Ex128
         Ex128 ex128 = new Ex128();
-        int[] arr3 = {5,5,5,5,5,5,5,5,5,5};
+        int[] arr3 = {5,5,5,5,6,5,3,5,5,2};
         //System.out.println(ex128.findMedian(arr3));
 //Ex129
         Ex129 ex129 = new Ex129();
         //System.out.println(ex129.occurOnce(arr3));
 //Ex130
         Ex130 ex130 = new Ex130();
-//
-////Ex131
-//        Ex131 ex131 = new Ex131();
-//
-////Ex132
-//        Ex132 ex132 = new Ex132();
-//
-////Ex133
-//        Ex133 ex133 = new Ex133();
-//
-////Ex134
-//        Ex134 ex134 = new Ex134();
-//
-////Ex135
-//        Ex135 ex135 = new Ex135();
-//
-////Ex136
-//        Ex136 ex136 = new Ex136();
-//
-////Ex137
-//        Ex137 ex137 = new Ex137();
-//
-////Ex138
-//        Ex138 ex138 = new Ex138();
-//
-////Ex139
-//        Ex139 ex139 = new Ex139();
-//
-////Ex140
-//        Ex140 ex140 = new Ex140();
-//
+
+//Ex131
+        Ex131 ex131 = new Ex131();
+        System.out.println(ex131.returnNoDuplicated(arr3));
+
+//Ex132
+        Ex132 ex132 = new Ex132();
+
+//Ex133
+        Ex133 ex133 = new Ex133();
+
+//Ex134
+        Ex134 ex134 = new Ex134();
+
+//Ex135
+        Ex135 ex135 = new Ex135();
+
+//Ex136
+        Ex136 ex136 = new Ex136();
+
+//Ex137
+        Ex137 ex137 = new Ex137();
+
+//Ex138
+        Ex138 ex138 = new Ex138();
+
+//Ex139
+        Ex139 ex139 = new Ex139();
+
+//Ex140
+        Ex140 ex140 = new Ex140();
+
 ////Ex141
 //        Ex141 ex141 = new Ex141();
 //
