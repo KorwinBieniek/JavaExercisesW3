@@ -430,7 +430,7 @@ public class Main {
 
 //Ex128
         Ex128 ex128 = new Ex128();
-        int[] arr3 = {5,5,5,5,6,5,3,5,5,2};
+        int[] arr3 = {5,5,5,5,6,6,6,5,3,5,5,2};
         //System.out.println(ex128.findMedian(arr3));
 //Ex129
         Ex129 ex129 = new Ex129();
@@ -440,10 +440,11 @@ public class Main {
 
 //Ex131
         Ex131 ex131 = new Ex131();
-        System.out.println(ex131.returnNoDuplicated(arr3));
+        //System.out.println(ex131.returnNoDuplicated(arr3));
 
 //Ex132
         Ex132 ex132 = new Ex132();
+        System.out.println(ex132.returnMax2Duplicates(arr3));
 
 //Ex133
         Ex133 ex133 = new Ex133();
