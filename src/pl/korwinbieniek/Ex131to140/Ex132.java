@@ -3,16 +3,28 @@ package pl.korwinbieniek.Ex131to140;
 import java.util.Arrays;
 
 public class Ex132 {
-    public int returnMax2Duplicates(int[] arr1) {
-        Arrays.sort(arr1);
-        int x = 1;
+    public int removeDuplicates(int[] nums) {
+        Arrays.sort(nums);
+        if(nums==null){
+            return 0;
+        }
 
-        for (int i = 2; i < arr1.length; i++) {
-            if (arr1[i] != arr1[x] || (arr1[i] == arr1[x] && arr1[i] != arr1[x - 1])) {
-                x++;
-                arr1[x] = arr1[i];
+        if (nums.length <= 2){
+            return nums.length;
+        }
+
+        int i = 1;
+        int j = 2;
+
+        while (j < nums.length) {
+            if (nums[j] == nums[i] && nums[j] == nums[i - 1]) {
+                j++;
+            } else {
+                i++;
+                nums[i] = nums[j];
+                j++;
             }
         }
-        return x + 1;
+        return i + 1;
     }
 }
