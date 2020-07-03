@@ -451,10 +451,10 @@ public class Main {
                                     {0,5,6},
                                     {3,1,2}};
         Ex133 ex133 = new Ex133();
-        System.out.println(ex133.minPathSum(grid));
+        //System.out.println(ex133.minPathSum(grid));
 //Ex134
         Ex134 ex134 = new Ex134();
-
+        System.out.println(ex134.climbStairs(5));
 //Ex135
         Ex135 ex135 = new Ex135();
 
