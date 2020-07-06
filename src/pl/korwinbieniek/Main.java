@@ -453,10 +453,34 @@ public class Main {
         Ex133 ex133 = new Ex133();
         //System.out.println(ex133.minPathSum(grid));
 //Ex134
-        Ex134 ex134 = new Ex134();
-        System.out.println(ex134.climbStairs(5));
+        //Ex134 ex134 = new Ex134();
+        //System.out.println(ex134.climbStairs(5));
+
+        /*int day = 2, month = 7;
+        for (int i = 0; i < 30; i++) {
+            day += 3;
+            if(day > 31)
+            {
+                day = 1;
+                month++;
+            }
+            if(day < 10)
+            System.out.println("0" + day + ".0" + month);
+            else System.out.println(day + ".0" + month);
+        }*/
 //Ex135
         Ex135 ex135 = new Ex135();
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        for (int i = 1; i < 10; i++) {
+            list.add(i);
+            list.add(i);
+        }
+
+        ex135.deleteDuplicatedLinkedList(list);
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i) + " ");
+        }
 
 //Ex136
         Ex136 ex136 = new Ex136();
