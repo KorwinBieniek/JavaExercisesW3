@@ -476,11 +476,11 @@ public class Main {
             list.add(i);
         }
 
-        ex135.deleteDuplicatedLinkedList(list);
+        /*ex135.deleteDuplicatedLinkedList(list);
 
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i) + " ");
-        }
+        }*/
 
 //Ex136
         Ex136 ex136 = new Ex136();
@@ -490,6 +490,8 @@ public class Main {
 
 //Ex138
         Ex138 ex138 = new Ex138();
+        String[] strings = new String[]{"pies","kot","ptak","zloto","srebro","mydlo","alterr"};
+        ex138.PrintTheLongest(strings);
 
 //Ex139
         Ex139 ex139 = new Ex139();
