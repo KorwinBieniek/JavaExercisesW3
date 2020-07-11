@@ -491,7 +491,7 @@ public class Main {
 //Ex138
         Ex138 ex138 = new Ex138();
         String[] strings = new String[]{"pies","kot","ptak","zloto","srebro","mydlo","alterr"};
-        ex138.PrintTheLongest(strings);
+        //ex138.PrintTheLongest(strings);
 
 //Ex139
         Ex139 ex139 = new Ex139();
