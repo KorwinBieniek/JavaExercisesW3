@@ -5,6 +5,7 @@ import pl.korwinbieniek.Ex111to120.*;
 import pl.korwinbieniek.Ex11to20.*;
 import pl.korwinbieniek.Ex121to130.*;
 import pl.korwinbieniek.Ex131to140.*;
+import pl.korwinbieniek.Ex141to150.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
@@ -499,36 +500,45 @@ public class Main {
 //Ex140
         Ex140 ex140 = new Ex140();
 
-////Ex141
-//        Ex141 ex141 = new Ex141();
-//
-////Ex142
-//        Ex142 ex142 = new Ex142();
-//
-////Ex143
-//        Ex143 ex143 = new Ex143();
-//
-////Ex144
-//        Ex144 ex144 = new Ex144();
-//
-////Ex145
-//        Ex145 ex145 = new Ex145();
-//
-////Ex146
-//        Ex146 ex146 = new Ex146();
-//
-////Ex147
-//        Ex147 ex147 = new Ex147();
-//
-////Ex148
-//        Ex148 ex148 = new Ex148();
-//
-////Ex149
-//        Ex149 ex149 = new Ex149();
-//
-////Ex150
-//        Ex150 ex150 = new Ex150();
-//
+//Ex141
+        Ex141 ex141 = new Ex141();
+        //ex141.isUnique("sjask");
+
+//Ex142
+        Ex142 ex142 = new Ex142();
+        //ex142.isAnagram("pies","sesp");
+
+//Ex143
+        Ex143 ex143 = new Ex143();
+        LinkedList<Integer> list1 = new LinkedList<Integer>();
+        LinkedList<Integer> list2 = new LinkedList<Integer>();
+        for (int i = 1; i < 10; i++) {
+            list1.add(i);
+            list2.add(i+3);
+        }
+        System.out.println(ex143.mergeLists(list1, list2));
+
+//Ex144
+        Ex144 ex144 = new Ex144();
+
+//Ex145
+        Ex145 ex145 = new Ex145();
+
+//Ex146
+        Ex146 ex146 = new Ex146();
+
+//Ex147
+        Ex147 ex147 = new Ex147();
+
+//Ex148
+        Ex148 ex148 = new Ex148();
+
+//Ex149
+        Ex149 ex149 = new Ex149();
+
+//Ex150
+        Ex150 ex150 = new Ex150();
+
 ////Ex151
 //        Ex151 ex151 = new Ex151();
 //
