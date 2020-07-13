@@ -246,7 +246,7 @@ public class Main {
         int[] array = new int[5];
         int[] array2 = new int[5];
         int[] arr1 = {-2,1,-3,4,-1,2,1,-5,4};
-        int[] arr2 = {-2,1,-3,4};
+        int[] arr2 = {1,1,1,2,3,4};
         //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
@@ -516,13 +516,15 @@ public class Main {
             list1.add(i);
             list2.add(i+3);
         }
-        System.out.println(ex143.mergeLists(list1, list2));
+        //System.out.println(ex143.mergeLists(list1, list2));
 
 //Ex144
         Ex144 ex144 = new Ex144();
+        //System.out.println(ex144.removeOccurences(1, arr2));
 
 //Ex145
         Ex145 ex145 = new Ex145();
+        ex145.deleteNth(9,list1);
 
 //Ex146
         Ex146 ex146 = new Ex146();
