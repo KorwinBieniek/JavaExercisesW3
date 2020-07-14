@@ -524,7 +524,7 @@ public class Main {
 
 //Ex145
         Ex145 ex145 = new Ex145();
-        ex145.deleteNth(9,list1);
+        //ex145.deleteNth(9,list1);
 
 //Ex146
         Ex146 ex146 = new Ex146();
