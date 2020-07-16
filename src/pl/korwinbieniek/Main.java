@@ -6,6 +6,7 @@ import pl.korwinbieniek.Ex11to20.*;
 import pl.korwinbieniek.Ex121to130.*;
 import pl.korwinbieniek.Ex131to140.*;
 import pl.korwinbieniek.Ex141to150.*;
+import pl.korwinbieniek.Ex151to160.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
@@ -541,36 +542,55 @@ public class Main {
 //Ex150
         Ex150 ex150 = new Ex150();
 
-////Ex151
-//        Ex151 ex151 = new Ex151();
-//
-////Ex152
-//        Ex152 ex152 = new Ex152();
-//
-////Ex153
-//        Ex153 ex153 = new Ex153();
-//
-////Ex154
-//        Ex154 ex154 = new Ex154();
-//
-////Ex155
-//        Ex155 ex155 = new Ex155();
-//
-////Ex156
-//        Ex156 ex156 = new Ex156();
-//
-////Ex157
-//        Ex157 ex157 = new Ex157();
-//
-////Ex158
-//        Ex158 ex158 = new Ex158();
-//
-////Ex159
-//        Ex159 ex159 = new Ex159();
-//
-////Ex160
-//        Ex160 ex160 = new Ex160();
-//
+//Ex151
+        Ex151 ex151 = new Ex151();
+        //ex151.printValues();
+
+//Ex152
+        Ex152 ex152 = new Ex152();
+        //ex152.numbersEqual();
+
+//Ex153
+        Ex153 ex153 = new Ex153();
+        //ex153.Between0and1();
+
+//Ex154
+        Ex154 ex154 = new Ex154();
+        boolean[][] arr = {{true, false, true},
+                {false, true, false}};
+        //ex154.print2DBoolArray(arr);
+
+
+//Ex155
+        Ex155 ex155 = new Ex155();
+        int[][] twodm = {
+                {10, 20, 30},
+                {40, 50, 60}};
+            //ex155.shiftArray(twodm);
+
+//Ex156
+        Ex156 ex156 = new Ex156();
+        //System.out.println(ex156.maxLog(2350));
+
+//Ex157
+        Ex157 ex157 = new Ex157();
+
+//Ex158
+        Ex158 ex158 = new Ex158();
+
+        int[][] arr2d = {
+                {2, 4, 6},
+                {3, 7, 9}};
+        //ex158.Primes2D(arr2d);
+
+//Ex159
+        Ex159 ex159 = new Ex159();
+        //ex159.kBiggest(arr1, 4);
+
+//Ex160
+        Ex160 ex160 = new Ex160();
+        //ex160.kSmallest(arr1, 4);
+
 ////Ex161
 //        Ex161 ex161 = new Ex161();
 //
