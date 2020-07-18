@@ -591,39 +591,39 @@ public class Main {
         Ex160 ex160 = new Ex160();
         //ex160.kSmallest(arr1, 4);
 
-////Ex161
-//        Ex161 ex161 = new Ex161();
-//
-////Ex162
-//        Ex162 ex162 = new Ex162();
-//
-////Ex163
-//        Ex163 ex163 = new Ex163();
-//
-////Ex164
-//        Ex164 ex164 = new Ex164();
-//
-////Ex165
-//        Ex165 ex165 = new Ex165();
-//
-////Ex166
-//        Ex166 ex166 = new Ex166();
-//
-////Ex167
-//        Ex167 ex167 = new Ex167();
-//
-////Ex168
-//        Ex168 ex168 = new Ex168();
-//
-////Ex169
-//        Ex169 ex169 = new Ex169();
-//
-////Ex170
-//        Ex170 ex170 = new Ex170();
-//
-////Ex171
-//        Ex171 ex171 = new Ex171();
-//
+//Ex161
+        Ex161 ex161 = new Ex161();
+        //ex161.kBiggest(arr1, 4);
+//Ex162
+        Ex162 ex162 = new Ex162();
+
+//Ex163
+        Ex163 ex163 = new Ex163();
+
+//Ex164
+        Ex164 ex164 = new Ex164();
+
+//Ex165
+        Ex165 ex165 = new Ex165();
+
+//Ex166
+        Ex166 ex166 = new Ex166();
+
+//Ex167
+        Ex167 ex167 = new Ex167();
+
+//Ex168
+        Ex168 ex168 = new Ex168();
+
+//Ex169
+        Ex169 ex169 = new Ex169();
+
+//Ex170
+        Ex170 ex170 = new Ex170();
+
+//Ex171
+        //Ex171 ex171 = new Ex171();
+
 ////Ex172
 //        Ex172 ex172 = new Ex172();
 //
