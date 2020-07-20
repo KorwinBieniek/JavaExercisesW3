@@ -246,8 +246,8 @@ public class Main {
         Ex74 ex74 = new Ex74();
         int[] array = new int[5];
         int[] array2 = new int[5];
-        int[] arr1 = {-2,1,-3,4,-1,2,1,-5,4};
-        int[] arr2 = {1,1,1,2,3,4};
+        int[] arr1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] arr2 = {1, 1, 1, 2, 3, 4};
         //System.out.println(ex74.tenInArray(array));
         //Ex75
         Ex75 ex75 = new Ex75();
@@ -402,7 +402,7 @@ public class Main {
         //ex119.findElement(arr1, 15);
 
 //Ex120
-        int[][] marr = {{1,2,3,4,5,6,7,8,9,10}, {11,12,13,14,15,16,17,18,19,20}};
+        int[][] marr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {11, 12, 13, 14, 15, 16, 17, 18, 19, 20}};
         Ex120 ex120 = new Ex120();
         //System.out.println(ex120.findXinMatrix(marr, 21));
 //Ex121
@@ -432,7 +432,7 @@ public class Main {
 
 //Ex128
         Ex128 ex128 = new Ex128();
-        int[] arr3 = {6,6,5,3,2};
+        int[] arr3 = {6, 6, 5, 3, 2};
         //System.out.println(ex128.findMedian(arr3));
 //Ex129
         Ex129 ex129 = new Ex129();
@@ -449,9 +449,9 @@ public class Main {
         //System.out.println(ex132.removeDuplicates(arr3));
 
 //Ex133
-        int[][] grid = new int[][] {{7,4,2},
-                                    {0,5,6},
-                                    {3,1,2}};
+        int[][] grid = new int[][]{{7, 4, 2},
+                {0, 5, 6},
+                {3, 1, 2}};
         Ex133 ex133 = new Ex133();
         //System.out.println(ex133.minPathSum(grid));
 //Ex134
@@ -492,7 +492,7 @@ public class Main {
 
 //Ex138
         Ex138 ex138 = new Ex138();
-        String[] strings = new String[]{"pies","kot","ptak","zloto","srebro","mydlo","alterr"};
+        String[] strings = new String[]{"pies", "kot", "ptak", "zloto", "srebro", "mydlo", "alterr"};
         //ex138.PrintTheLongest(strings);
 
 //Ex139
@@ -515,7 +515,7 @@ public class Main {
         LinkedList<Integer> list2 = new LinkedList<Integer>();
         for (int i = 1; i < 10; i++) {
             list1.add(i);
-            list2.add(i+3);
+            list2.add(i + 3);
         }
         //System.out.println(ex143.mergeLists(list1, list2));
 
@@ -566,7 +566,7 @@ public class Main {
         int[][] twodm = {
                 {10, 20, 30},
                 {40, 50, 60}};
-            //ex155.shiftArray(twodm);
+        //ex155.shiftArray(twodm);
 
 //Ex156
         Ex156 ex156 = new Ex156();
@@ -595,19 +595,25 @@ public class Main {
         Ex161 ex161 = new Ex161();
         //ex161.kBiggest(arr1, 4);
 //Ex162
+        int[] arr4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arr5 = {-1, 2, 3, -4, 5, -6, 7, -8, -9, -10};
         Ex162 ex162 = new Ex162();
-
+        //ex162.biggerThanAverage(arr4);
 //Ex163
         Ex163 ex163 = new Ex163();
+        //System.out.println(ex163.zeroBits(25));
 
 //Ex164
         Ex164 ex164 = new Ex164();
+        //System.out.println(ex164.divisionBySubtraction(625, 25));
 
 //Ex165
         Ex165 ex165 = new Ex165();
+        //ex165.shiftNegative(arr5);
 
 //Ex166
         Ex166 ex166 = new Ex166();
+        //System.out.println(ex166.intToString(2523));
 
 //Ex167
         Ex167 ex167 = new Ex167();
