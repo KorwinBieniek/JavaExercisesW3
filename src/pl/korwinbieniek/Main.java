@@ -628,13 +628,15 @@ public class Main {
 //Ex170
         int[] arr7 = {1,1,1,1,2,3,4,5,6,5,5,2,1};
         Ex170 ex170 = new Ex170();
-        System.out.println(ex170.longestConsecutiveSequence(arr7));
+        //System.out.println(ex170.longestConsecutiveSequence(arr7));
 
 //Ex171
         Ex171 ex171 = new Ex171();
+        //System.out.println(ex171.checkIfContains("Psy to koty", "kotys"));
 
 //Ex172
         Ex172 ex172 = new Ex172();
+        //System.out.println(ex172.smallerThanSize(arr7,arr6));
 
 //Ex173
         Ex173 ex173 = new Ex173();
@@ -644,21 +646,26 @@ public class Main {
 
 //Ex175
         Ex175 ex175 = new Ex175();
+        //System.out.println(list.toString());
+        //System.out.println(ex175.deleteChosenNode(list, 3));
 
 //Ex176
         Ex176 ex176 = new Ex176();
+        //System.out.println(ex176.secludeOddAndEven(arr7));
 
 //Ex177
         Ex177 ex177 = new Ex177();
 
 //Ex178
         Ex178 ex178 = new Ex178();
+        //ex178.longestConsecutiveSubsequence(arr1);
 
 //Ex179
         Ex179 ex179 = new Ex179();
 
 //Ex180
         Ex180 ex180 = new Ex180();
+        //System.out.println(ex180.swapAdjacentInList(list1));
 
 ////Ex181
 //        Ex181 ex181 = new Ex181();
