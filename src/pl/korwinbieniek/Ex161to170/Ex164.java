@@ -1,4 +1,4 @@
-package pl.korwinbieniek;
+package pl.korwinbieniek.Ex161to170;
 
 public class Ex164 {
     public int divisionBySubtraction(int num, int divisor)

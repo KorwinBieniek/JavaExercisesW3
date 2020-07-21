@@ -7,6 +7,8 @@ import pl.korwinbieniek.Ex121to130.*;
 import pl.korwinbieniek.Ex131to140.*;
 import pl.korwinbieniek.Ex141to150.*;
 import pl.korwinbieniek.Ex151to160.*;
+import pl.korwinbieniek.Ex161to170.*;
+import pl.korwinbieniek.Ex171to180.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
@@ -17,11 +19,7 @@ import pl.korwinbieniek.Ex71to80.*;
 import pl.korwinbieniek.Ex81to90.*;
 import pl.korwinbieniek.Ex91to100.*;
 
-import java.util.Arrays;
 import java.util.LinkedList;
-
-import static pl.korwinbieniek.Ex1to10.Ex10.Ex10calculation;
-import static pl.korwinbieniek.Ex1to10.Ex4.printSomeNumbers;
 
 public class Main {
 
@@ -597,6 +595,7 @@ public class Main {
 //Ex162
         int[] arr4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] arr5 = {-1, 2, 3, -4, 5, -6, 7, -8, -9, -10};
+        int[] arr6 = {0,1,2,-1,0,-4,-4,-2,0,0,3,0,2};
         Ex162 ex162 = new Ex162();
         //ex162.biggerThanAverage(arr4);
 //Ex163
@@ -617,46 +616,50 @@ public class Main {
 
 //Ex167
         Ex167 ex167 = new Ex167();
-
+        //ex167.shiftZeros(arr6);
 //Ex168
         Ex168 ex168 = new Ex168();
+        //System.out.println(ex168.multiplyWithAddition(25,5));
 
 //Ex169
         Ex169 ex169 = new Ex169();
+        //System.out.println(ex169.reverseWordsInSentence("The quick brown fox jumps over the lazy dog"));
 
 //Ex170
+        int[] arr7 = {1,1,1,1,2,3,4,5,6,5,5,2,1};
         Ex170 ex170 = new Ex170();
+        System.out.println(ex170.longestConsecutiveSequence(arr7));
 
-//Ex171
-        //Ex171 ex171 = new Ex171();
+Ex171
+        Ex171 ex171 = new Ex171();
 
-////Ex172
-//        Ex172 ex172 = new Ex172();
-//
-////Ex173
-//        Ex173 ex173 = new Ex173();
-//
-////Ex174
-//        Ex174 ex174 = new Ex174();
-//
-////Ex175
-//        Ex175 ex175 = new Ex175();
-//
-////Ex176
-//        Ex176 ex176 = new Ex176();
-//
-////Ex177
-//        Ex177 ex177 = new Ex177();
-//
-////Ex178
-//        Ex178 ex178 = new Ex178();
-//
-////Ex179
-//        Ex179 ex179 = new Ex179();
-//
-////Ex180
-//        Ex180 ex180 = new Ex180();
-//
+//Ex172
+        Ex172 ex172 = new Ex172();
+
+//Ex173
+        Ex173 ex173 = new Ex173();
+
+//Ex174
+        Ex174 ex174 = new Ex174();
+
+//Ex175
+        Ex175 ex175 = new Ex175();
+
+//Ex176
+        Ex176 ex176 = new Ex176();
+
+//Ex177
+        Ex177 ex177 = new Ex177();
+
+//Ex178
+        Ex178 ex178 = new Ex178();
+
+//Ex179
+        Ex179 ex179 = new Ex179();
+
+//Ex180
+        Ex180 ex180 = new Ex180();
+
 ////Ex181
 //        Ex181 ex181 = new Ex181();
 //

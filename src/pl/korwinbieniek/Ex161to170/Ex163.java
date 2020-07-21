@@ -1,4 +1,4 @@
-package pl.korwinbieniek;
+package pl.korwinbieniek.Ex161to170;
 
 public class Ex163 {
     public int zeroBits(int num)
