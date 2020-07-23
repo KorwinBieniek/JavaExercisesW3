@@ -9,6 +9,7 @@ import pl.korwinbieniek.Ex141to150.*;
 import pl.korwinbieniek.Ex151to160.*;
 import pl.korwinbieniek.Ex161to170.*;
 import pl.korwinbieniek.Ex171to180.*;
+import pl.korwinbieniek.Ex181to190.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
@@ -667,36 +668,38 @@ public class Main {
         Ex180 ex180 = new Ex180();
         //System.out.println(ex180.swapAdjacentInList(list1));
 
-////Ex181
-//        Ex181 ex181 = new Ex181();
-//
-////Ex182
-//        Ex182 ex182 = new Ex182();
-//
-////Ex183
-//        Ex183 ex183 = new Ex183();
-//
-////Ex184
-//        Ex184 ex184 = new Ex184();
-//
-////Ex185
-//        Ex185 ex185 = new Ex185();
-//
-////Ex186
-//        Ex186 ex186 = new Ex186();
-//
-////Ex187
-//        Ex187 ex187 = new Ex187();
-//
-////Ex188
-//        Ex188 ex188 = new Ex188();
-//
-////Ex189
-//        Ex189 ex189 = new Ex189();
-//
-////Ex190
-//        Ex190 ex190 = new Ex190();
-//
+//Ex181
+        Ex181 ex181 = new Ex181();
+        //System.out.println(ex181.lengthOfTheLastWord("pies i kot "));
+
+//Ex182
+        Ex182 ex182 = new Ex182();
+
+//Ex183
+        Ex183 ex183 = new Ex183();
+        //System.out.println(ex183.addDigits(5321));
+
+//Ex184
+        Ex184 ex184 = new Ex184();
+
+//Ex185
+        Ex185 ex185 = new Ex185();
+
+//Ex186
+        Ex186 ex186 = new Ex186();
+
+//Ex187
+        Ex187 ex187 = new Ex187();
+
+//Ex188
+        Ex188 ex188 = new Ex188();
+
+//Ex189
+        Ex189 ex189 = new Ex189();
+
+//Ex190
+        Ex190 ex190 = new Ex190();
+
 ////Ex191
 //        Ex191 ex191 = new Ex191();
 //
