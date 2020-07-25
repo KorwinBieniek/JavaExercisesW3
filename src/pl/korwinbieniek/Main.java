@@ -20,6 +20,7 @@ import pl.korwinbieniek.Ex71to80.*;
 import pl.korwinbieniek.Ex81to90.*;
 import pl.korwinbieniek.Ex91to100.*;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Main {
@@ -699,6 +700,7 @@ public class Main {
 
 //Ex190
         Ex190 ex190 = new Ex190();
+        System.out.println(Arrays.toString(ex190.findMissingString("Kable adaptery networki", "Kable adaptery")));
 
 ////Ex191
 //        Ex191 ex191 = new Ex191();
