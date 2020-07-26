@@ -10,6 +10,7 @@ import pl.korwinbieniek.Ex151to160.*;
 import pl.korwinbieniek.Ex161to170.*;
 import pl.korwinbieniek.Ex171to180.*;
 import pl.korwinbieniek.Ex181to190.*;
+import pl.korwinbieniek.Ex191to200.*;
 import pl.korwinbieniek.Ex1to10.*;
 import pl.korwinbieniek.Ex21to30.*;
 import pl.korwinbieniek.Ex31to40.*;
@@ -700,38 +701,39 @@ public class Main {
 
 //Ex190
         Ex190 ex190 = new Ex190();
-        System.out.println(Arrays.toString(ex190.findMissingString("Kable adaptery networki", "Kable adaptery")));
+        //System.out.println(Arrays.toString(ex190.findMissingString("Kable adaptery networki", "Kable adaptery")));
 
-////Ex191
-//        Ex191 ex191 = new Ex191();
-//
-////Ex192
-//        Ex192 ex192 = new Ex192();
-//
-////Ex193
-//        Ex193 ex193 = new Ex193();
-//
-////Ex194
-//        Ex194 ex194 = new Ex194();
-//
-////Ex195
-//        Ex195 ex195 = new Ex195();
-//
-////Ex196
-//        Ex196 ex196 = new Ex196();
-//
-////Ex197
-//        Ex197 ex197 = new Ex197();
-//
-////Ex198
-//        Ex198 ex198 = new Ex198();
-//
-////Ex199
-//        Ex199 ex199 = new Ex199();
-//
-////Ex200
-//        Ex200 ex200 = new Ex200();
-//
+//Ex191
+        Ex191 ex191 = new Ex191();
+        //System.out.println(ex191.sumOfSquares(15));
+
+//Ex192
+        Ex192 ex192 = new Ex192();
+
+//Ex193
+        Ex193 ex193 = new Ex193();
+
+//Ex194
+        Ex194 ex194 = new Ex194();
+
+//Ex195
+        Ex195 ex195 = new Ex195();
+
+//Ex196
+        Ex196 ex196 = new Ex196();
+
+//Ex197
+        Ex197 ex197 = new Ex197();
+
+//Ex198
+        Ex198 ex198 = new Ex198();
+
+//Ex199
+        Ex199 ex199 = new Ex199();
+
+//Ex200
+        Ex200 ex200 = new Ex200();
+
 ////Ex201
 //        Ex201 ex201 = new Ex201();
 //
