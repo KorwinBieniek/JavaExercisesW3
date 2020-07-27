@@ -720,6 +720,7 @@ public class Main {
 
 //Ex195
         Ex195 ex195 = new Ex195();
+        //System.out.println("Can these numbers form a triangle: " + ex195.canItFormTriangle(14,6,8));
 
 //Ex196
         Ex196 ex196 = new Ex196();
