@@ -715,6 +715,8 @@ public class Main {
 
 //Ex194
         Ex194 ex194 = new Ex194();
+        int[][] matrix = {{1,2,3,4,5},{5,4,3,2,1},{1,3,5,2,4}};
+        //ex194.findNumberInMatrix(matrix, 5);
 
 //Ex195
         Ex195 ex195 = new Ex195();
