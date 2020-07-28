@@ -727,6 +727,7 @@ public class Main {
 
 //Ex197
         Ex197 ex197 = new Ex197();
+        //System.out.println(ex197.isPerfectSquare(25));
 
 //Ex198
         Ex198 ex198 = new Ex198();
