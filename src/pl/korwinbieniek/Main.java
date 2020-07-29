@@ -731,6 +731,7 @@ public class Main {
 
 //Ex198
         Ex198 ex198 = new Ex198();
+        //System.out.println(ex198.primePosition(13));
 
 //Ex199
         Ex199 ex199 = new Ex199();
