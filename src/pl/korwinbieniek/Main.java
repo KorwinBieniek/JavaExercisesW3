@@ -1,5 +1,6 @@
 package pl.korwinbieniek;
 
+import pl.korwinbieniek.DataTypes15Exercises.*;
 import pl.korwinbieniek.Ex101to110.*;
 import pl.korwinbieniek.Ex111to120.*;
 import pl.korwinbieniek.Ex11to20.*;
@@ -888,6 +889,53 @@ public class Main {
 //
 ////Ex250
 //        Ex250 ex250 = new Ex250();
+
+        //DT1
+        DT1 dt1 = new DT1();
+        //System.out.println(dt1.FahrenheitToCelsius());
+
+        //DT2
+        DT2 dt2 = new DT2();
+
+        //DT3
+        DT3 dt3 = new DT3();
+
+        //DT4
+        DT4 dt4 = new DT4();
+
+        //DT5
+        DT5 dt5 = new DT5();
+
+        //DT6
+        DT6 dt6 = new DT6();
+
+        //DT7
+        DT7 dt7 = new DT7();
+
+        //DT8
+        DT8 dt8 = new DT8();
+
+        //DT9
+        DT9 dt9 = new DT9();
+
+        //DT10
+        DT10 dt10 = new DT10();
+
+        //DT11
+        DT11 dt11 = new DT11();
+
+        //DT12
+        DT12 dt12 = new DT12();
+
+        //DT13
+        DT13 dt13 = new DT13();
+
+        //DT14
+        DT14 dt14 = new DT14();
+
+        //DT15
+
+        DT15 dt15 = new DT15();
 
 
     }
