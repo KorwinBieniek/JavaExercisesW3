@@ -896,6 +896,7 @@ public class Main {
 
         //DT2
         DT2 dt2 = new DT2();
+        //dt2.inchesToMeters();
 
         //DT3
         DT3 dt3 = new DT3();
