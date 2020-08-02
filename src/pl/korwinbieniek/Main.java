@@ -900,9 +900,11 @@ public class Main {
 
         //DT3
         DT3 dt3 = new DT3();
+        //System.out.println(dt3.addDigits(567));
 
         //DT4
         DT4 dt4 = new DT4();
+        dt4.MinToYears(3456789);
 
         //DT5
         DT5 dt5 = new DT5();
