@@ -904,10 +904,11 @@ public class Main {
 
         //DT4
         DT4 dt4 = new DT4();
-        dt4.MinToYears(3456789);
+        //dt4.MinToYears(3456789);
 
         //DT5
         DT5 dt5 = new DT5();
+        //dt5.printDate();
 
         //DT6
         DT6 dt6 = new DT6();
