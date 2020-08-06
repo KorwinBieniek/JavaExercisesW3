@@ -912,12 +912,15 @@ public class Main {
 
         //DT6
         DT6 dt6 = new DT6();
+        //System.out.println(dt6.returnBMI(1.96, 120));
 
         //DT7
         DT7 dt7 = new DT7();
+        //dt7.timeMeter(5,56,23,2500);
 
         //DT8
         DT8 dt8 = new DT8();
+        dt8.DisplayPowers(15);
 
         //DT9
         DT9 dt9 = new DT9();
