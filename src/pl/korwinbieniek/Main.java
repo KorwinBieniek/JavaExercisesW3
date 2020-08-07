@@ -920,13 +920,15 @@ public class Main {
 
         //DT8
         DT8 dt8 = new DT8();
-        dt8.DisplayPowers(15);
+        //dt8.DisplayPowers(15);
 
         //DT9
         DT9 dt9 = new DT9();
+        //dt9.returnValues();
 
         //DT10
         DT10 dt10 = new DT10();
+        //dt10.sequenceOfDigits(123456789);
 
         //DT11
         DT11 dt11 = new DT11();
