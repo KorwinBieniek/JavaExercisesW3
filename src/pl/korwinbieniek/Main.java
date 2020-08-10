@@ -1,5 +1,6 @@
 package pl.korwinbieniek;
 
+import pl.korwinbieniek.ConditionalStatement32Exercises.*;
 import pl.korwinbieniek.DataTypes15Exercises.*;
 import pl.korwinbieniek.Ex101to110.*;
 import pl.korwinbieniek.Ex111to120.*;
@@ -948,7 +949,41 @@ public class Main {
 
         //DT15
         DT15 dt15 = new DT15();
-        dt15.roundFloatPoint();
+        //dt15.roundFloatPoint();
+
+        //CS1
+        CS1 cs1 = new CS1();
+        //cs1.positiveOrNegative(-1);
+
+        //CS2
+        CS2 cs2 = new CS2();
+
+        //CS3
+        CS3 cs3 = new CS3();
+
+        //CS4
+        CS4 cs4 = new CS4();
+
+        //CS5
+        CS5 cs5 = new CS5();
+
+        //CS6
+        CS6 cs6 = new CS6();
+
+        //CS7
+        CS7 cs7 = new CS7();
+
+        //CS8
+        CS8 cs8 = new CS8();
+
+        //CS9
+        CS9 cs9 = new CS9();
+
+        //CS10
+        CS10 cs10 = new CS10();
+
+        //CS11
+        CS11 cs11 = new CS11();
 
     }
 }
