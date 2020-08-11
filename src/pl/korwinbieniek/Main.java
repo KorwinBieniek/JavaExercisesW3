@@ -957,9 +957,11 @@ public class Main {
 
         //CS2
         CS2 cs2 = new CS2();
+        //cs2.quadraticEquation();
 
         //CS3
         CS3 cs3 = new CS3();
+        //cs3.theBiggestNumber(1532,34,2143);
 
         //CS4
         CS4 cs4 = new CS4();
