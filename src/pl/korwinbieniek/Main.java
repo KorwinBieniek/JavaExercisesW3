@@ -965,9 +965,11 @@ public class Main {
 
         //CS4
         CS4 cs4 = new CS4();
+        //cs4.smallOrBig(1020222);
 
         //CS5
         CS5 cs5 = new CS5();
+        //cs5.generateWeekday();
 
         //CS6
         CS6 cs6 = new CS6();
