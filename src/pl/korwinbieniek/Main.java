@@ -973,6 +973,7 @@ public class Main {
 
         //CS6
         CS6 cs6 = new CS6();
+        System.out.println(cs6.compareFloat(25.586, 25.586));
 
         //CS7
         CS7 cs7 = new CS7();
