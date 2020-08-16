@@ -973,22 +973,27 @@ public class Main {
 
         //CS6
         CS6 cs6 = new CS6();
-        System.out.println(cs6.compareFloat(25.586, 25.586));
+        //System.out.println(cs6.compareFloat(25.586, 25.586));
 
         //CS7
         CS7 cs7 = new CS7();
+        //cs7.findDaysInMonth();
 
         //CS8
         CS8 cs8 = new CS8();
+        //cs8.vowelOrConsonant();
 
         //CS9
         CS9 cs9 = new CS9();
+        //System.out.println(cs9.isLeapYear(2018));
 
         //CS10
         CS10 cs10 = new CS10();
+        //cs10.first10NaturalNumbers();
 
         //CS11
         CS11 cs11 = new CS11();
+        //cs11.first10NaturalNumbersSum();
 
     }
 }
