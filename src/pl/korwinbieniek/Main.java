@@ -995,5 +995,75 @@ public class Main {
         CS11 cs11 = new CS11();
         //cs11.first10NaturalNumbersSum();
 
+        //CS12
+        CS12 cs12 = new CS12();
+        //cs12.averageOf5(5);
+
+        //CS13
+        CS13 cs13 = new CS13();
+        //cs13.cubeUpTo(4);
+
+        //CS14
+        CS14 cs14 = new CS14();
+        //cs14.multiplicationTableOfANumber(5);
+
+        //CS15
+        CS15 cs15 = new CS15();
+        //cs15.sumOfOdds(5);
+
+        //CS16
+        CS16 cs16 = new CS16();
+        //cs16.rightAngleTriangle(10);
+
+        //CS17
+        CS17 cs17 = new CS17();
+        //cs17.rowsWithSameNumber(4);
+
+        //CS18
+        CS18 cs18 = new CS18();
+        //cs18.rightAngleTriangleIncreasingBy1(4);
+
+        //CS19
+        CS19 cs19 = new CS19();
+
+        //CS20
+        CS20 cs20 = new CS20();
+
+        //CS21
+        CS21 cs21 = new CS21();
+
+        //CS22
+        CS22 cs22 = new CS22();
+
+        //CS23
+        CS23 cs23 = new CS23();
+
+        //CS24
+        CS24 cs24 = new CS24();
+
+        //CS25
+        CS25 cs25 = new CS25();
+
+        //CS26
+        CS26 cs26 = new CS26();
+
+        //CS27
+        CS27 cs27 = new CS27();
+
+        //CS28
+        CS28 cs28 = new CS28();
+
+        //CS29
+        CS29 cs29 = new CS29();
+
+        //CS30
+        CS30 cs30 = new CS30();
+
+        //CS31
+        CS31 cs31 = new CS31();
+
+        //CS32
+        CS32 cs32 = new CS32();
+
     }
 }
