@@ -1025,9 +1025,11 @@ public class Main {
 
         //CS19
         CS19 cs19 = new CS19();
+        //cs19.drawPyramid(5);
 
         //CS20
         CS20 cs20 = new CS20();
+        //cs20.drawFloydTriangle(5);
 
         //CS21
         CS21 cs21 = new CS21();
