@@ -1033,6 +1033,7 @@ public class Main {
 
         //CS21
         CS21 cs21 = new CS21();
+        //cs21.printDiamond(7);
 
         //CS22
         CS22 cs22 = new CS22();
