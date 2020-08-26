@@ -1037,12 +1037,15 @@ public class Main {
 
         //CS22
         CS22 cs22 = new CS22();
+        //cs22.pascalTriangle();
 
         //CS23
         CS23 cs23 = new CS23();
+        //cs23.reversedHalfTriangle(6);
 
         //CS24
         CS24 cs24 = new CS24();
+        //cs24.reversedHalfTriangleAt(6);
 
         //CS25
         CS25 cs25 = new CS25();
