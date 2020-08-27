@@ -1049,6 +1049,7 @@ public class Main {
 
         //CS25
         CS25 cs25 = new CS25();
+        cs25.numbersRhombus(7);
 
         //CS26
         CS26 cs26 = new CS26();
