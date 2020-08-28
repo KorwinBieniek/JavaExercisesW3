@@ -1049,13 +1049,15 @@ public class Main {
 
         //CS25
         CS25 cs25 = new CS25();
-        cs25.numbersRhombus(7);
+        //cs25.numbersRhombus(7);
 
         //CS26
         CS26 cs26 = new CS26();
+        //cs26.alphabetRhombus(7);
 
         //CS27
         CS27 cs27 = new CS27();
+        //cs27.checkIf(7);
 
         //CS28
         CS28 cs28 = new CS28();
