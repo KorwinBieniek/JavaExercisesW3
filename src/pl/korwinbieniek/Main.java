@@ -23,12 +23,13 @@ import pl.korwinbieniek.Ex71to80.*;
 import pl.korwinbieniek.Ex81to90.*;
 import pl.korwinbieniek.Ex91to100.*;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         //Ex1
         Ex1 hello = new Ex1();
         //hello.helloWorld();
@@ -1061,18 +1062,23 @@ public class Main {
 
         //CS28
         CS28 cs28 = new CS28();
+        //cs28.checkIfLarge();
 
         //CS29
         CS29 cs29 = new CS29();
+        //System.out.println(cs29.countDigits(5325326));
 
         //CS30
         CS30 cs30 = new CS30();
+        //cs30.equalOrDifferent();
 
         //CS31
         CS31 cs31 = new CS31();
+        //cs31.increasingOrDecreasing();
 
         //CS32
         CS32 cs32 = new CS32();
+        //System.out.println(cs32.compareFloats(2.553253523,2.553253524));
 
     }
 }
