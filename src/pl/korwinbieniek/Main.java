@@ -1,5 +1,6 @@
 package pl.korwinbieniek;
 
+import pl.korwinbieniek.Array74Exercises.*;
 import pl.korwinbieniek.ConditionalStatement32Exercises.*;
 import pl.korwinbieniek.DataTypes15Exercises.*;
 import pl.korwinbieniek.Ex101to110.*;
@@ -1079,6 +1080,38 @@ public class Main {
         //CS32
         CS32 cs32 = new CS32();
         //System.out.println(cs32.compareFloats(2.553253523,2.553253524));
+
+        //Ar1
+        Ar1 ar1 = new Ar1();
+        //ar1.sortNumbersAndStrings();
+
+        //Ar2
+        Ar2 ar2 = new Ar2();
+        //System.out.println(ar2.sumArray());
+
+        //Ar1
+        Ar3 ar3 = new Ar3();
+
+        //Ar2
+        Ar4 ar4 = new Ar4();
+
+        //Ar1
+        Ar5 ar5 = new Ar5();
+
+        //Ar2
+        Ar6 ar6 = new Ar6();
+
+        //Ar1
+        Ar7 ar7 = new Ar7();
+
+        //Ar2
+        Ar8 ar8 = new Ar8();
+
+        //Ar1
+        Ar9 ar9 = new Ar9();
+
+        //Ar2
+        Ar10 ar10 = new Ar10();
 
     }
 }
