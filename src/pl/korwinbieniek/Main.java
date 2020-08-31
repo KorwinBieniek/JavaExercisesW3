@@ -1089,11 +1089,15 @@ public class Main {
         Ar2 ar2 = new Ar2();
         //System.out.println(ar2.sumArray());
 
+        int[] arr8 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] arr9 = {1, 1, 1, 2, 3, 4};
         //Ar1
         Ar3 ar3 = new Ar3();
+        //ar3.printGrid();
 
         //Ar2
         Ar4 ar4 = new Ar4();
+        //System.out.println(ar4.averageOfArray(arr9));
 
         //Ar1
         Ar5 ar5 = new Ar5();
