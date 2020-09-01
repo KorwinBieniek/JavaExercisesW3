@@ -1101,9 +1101,11 @@ public class Main {
 
         //Ar1
         Ar5 ar5 = new Ar5();
+        //System.out.println(ar5.doesContainVal(arr8, -5));
 
         //Ar2
         Ar6 ar6 = new Ar6();
+        //System.out.println(ar6.findIndex(arr9, 3));
 
         //Ar1
         Ar7 ar7 = new Ar7();
