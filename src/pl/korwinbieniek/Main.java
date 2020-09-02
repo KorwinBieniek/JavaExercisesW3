@@ -25,6 +25,7 @@ import pl.korwinbieniek.Ex81to90.*;
 import pl.korwinbieniek.Ex91to100.*;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 
@@ -1091,6 +1092,10 @@ public class Main {
 
         int[] arr8 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int[] arr9 = {1, 1, 1, 2, 3, 4};
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            arrayList.add(i);
+        }
         //Ar1
         Ar3 ar3 = new Ar3();
         //ar3.printGrid();
@@ -1109,9 +1114,11 @@ public class Main {
 
         //Ar1
         Ar7 ar7 = new Ar7();
+        //ar7.deleteSpecificElement(arrayList,6);
 
         //Ar2
         Ar8 ar8 = new Ar8();
+        //System.out.println(Arrays.toString(ar8.copyArray(arr8)));
 
         //Ar1
         Ar9 ar9 = new Ar9();
