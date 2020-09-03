@@ -1122,9 +1122,11 @@ public class Main {
 
         //Ar1
         Ar9 ar9 = new Ar9();
+        //ar9.insertAtPosition(arr8,5,3);
 
         //Ar2
         Ar10 ar10 = new Ar10();
+        //ar10.findMaxAndMin(arr8);
 
     }
 }
