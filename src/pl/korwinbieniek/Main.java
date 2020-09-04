@@ -1091,42 +1091,68 @@ public class Main {
         //System.out.println(ar2.sumArray());
 
         int[] arr8 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        int[] arr9 = {1, 1, 1, 2, 3, 4};
+        int[] arr9 = {1, 1, 1, 2, 3, 4, 4};
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             arrayList.add(i);
         }
-        //Ar1
+        //Ar3
         Ar3 ar3 = new Ar3();
         //ar3.printGrid();
 
-        //Ar2
+        //Ar4
         Ar4 ar4 = new Ar4();
         //System.out.println(ar4.averageOfArray(arr9));
 
-        //Ar1
+        //Ar5
         Ar5 ar5 = new Ar5();
         //System.out.println(ar5.doesContainVal(arr8, -5));
 
-        //Ar2
+        //Ar6
         Ar6 ar6 = new Ar6();
         //System.out.println(ar6.findIndex(arr9, 3));
 
-        //Ar1
+        //Ar7
         Ar7 ar7 = new Ar7();
         //ar7.deleteSpecificElement(arrayList,6);
 
-        //Ar2
+        //Ar8
         Ar8 ar8 = new Ar8();
         //System.out.println(Arrays.toString(ar8.copyArray(arr8)));
 
-        //Ar1
+        //Ar9
         Ar9 ar9 = new Ar9();
         //ar9.insertAtPosition(arr8,5,3);
 
-        //Ar2
+        //Ar10
         Ar10 ar10 = new Ar10();
         //ar10.findMaxAndMin(arr8);
+
+        //Ar11
+        Ar11 ar11 = new Ar11();
+        //System.out.println(Arrays.toString(ar11.reverseArray(arr8)));
+
+
+        //Ar12
+        Ar12 ar12 = new Ar12();
+        ar12.findDuplicates(arr9);
+
+
+        //Ar13
+        Ar13 ar13 = new Ar13();
+
+
+        //Ar14
+        Ar14 ar14 = new Ar14();
+
+
+        //Ar15
+        Ar15 ar15 = new Ar15();
+
+
+        //Ar16
+        Ar16 ar16 = new Ar16();
+
 
     }
 }
