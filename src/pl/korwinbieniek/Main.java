@@ -1135,15 +1135,20 @@ public class Main {
 
         //Ar12
         Ar12 ar12 = new Ar12();
-        ar12.findDuplicates(arr9);
+        //ar12.findDuplicates(arr9);
 
 
         //Ar13
+        String[] strings1 = {"Kot","Pies","Lol","Lol","Pies"};
         Ar13 ar13 = new Ar13();
+        //ar13.findStringDuplicates(strings1);
 
 
         //Ar14
+        int[] arr10 = {1, 1, 1, 2, 3, 4, 4};
+        int[] arr11 = {1, 1, 1, 2, 3, 4, 4};
         Ar14 ar14 = new Ar14();
+        //ar14.findCommonValues(arr10,arr11);
 
 
         //Ar15
