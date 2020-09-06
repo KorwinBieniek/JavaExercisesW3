@@ -1152,12 +1152,22 @@ public class Main {
 
 
         //Ar15
+        String[] arr12 = {"kot","lis","pies","Kot","Lol"};
         Ar15 ar15 = new Ar15();
+        //ar15.findCommonValues(strings1,arr12);
 
 
         //Ar16
+        ArrayList<Integer> list4 = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            list4.add(i);
+        }
+        list4.add(1);
+        list4.add(3);
+        list4.add(5);
         Ar16 ar16 = new Ar16();
-
+        System.out.println(list4);
+        System.out.println(ar16.removeDuplicated(list4));
 
     }
 }
