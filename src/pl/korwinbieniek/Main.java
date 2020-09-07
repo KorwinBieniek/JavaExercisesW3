@@ -1158,16 +1158,43 @@ public class Main {
 
 
         //Ar16
-        ArrayList<Integer> list4 = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            list4.add(i);
-        }
-        list4.add(1);
-        list4.add(3);
-        list4.add(5);
-        Ar16 ar16 = new Ar16();
-        System.out.println(list4);
-        System.out.println(ar16.removeDuplicated(list4));
+//        ArrayList<Integer> list4 = new ArrayList<>();
+//        for (int i = 0; i < 10; i++) {
+//            list4.add(i);
+//        }
+//        list4.add(1);
+//        list4.add(3);
+//        list4.add(5);
+//        Ar16 ar16 = new Ar16();
+//        System.out.println(list4);
+//        System.out.println(ar16.removeDuplicated(list4));
+
+        //Ar17
+        int[] arr15 = {1,2,3,4,7,6,4,8,2,532,1,6,3,-5,0,1};
+        Ar17 ar17 = new Ar17();
+        //System.out.println(ar17.secondLargest(arr15));
+
+
+        //Ar18
+        Ar18 ar18 = new Ar18();
+        //System.out.println(ar18.secondSmallest(arr15));
+
+
+        //Ar19
+        Ar19 ar19 = new Ar19();
+
+
+        //Ar20
+        Ar20 ar20 = new Ar20();
+
+
+        //Ar21
+        Ar21 ar21 = new Ar21();
+
+
+        //Ar22
+        Ar22 ar22 = new Ar22();
+
 
     }
 }
