@@ -1209,16 +1209,22 @@ public class Main {
         //System.out.println(met4.numberOfVowels("w3rEsource"));
 
         Met5 met5 = new Met5();
+        //System.out.println(met5.countWords("The quick brown fox jumps over the lazy dog."));
 
         Met6 met6 = new Met6();
+        //System.out.println(met6.computeSumOfDigits(75342532));
 
         Met7 met7 = new Met7();
+        //met7.first50Pentagonal();
 
         Met8 met8 = new Met8();
+        //met8.investmentValue();
 
         Met9 met9 = new Met9();
+        //met9.printAscii('(','z',20);
 
         Met10 met10 = new Met10();
+        //System.out.println(met10.is_LeapYear(2019));
 
     }
 }
