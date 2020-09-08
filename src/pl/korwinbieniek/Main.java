@@ -23,6 +23,7 @@ import pl.korwinbieniek.Ex61to70.*;
 import pl.korwinbieniek.Ex71to80.*;
 import pl.korwinbieniek.Ex81to90.*;
 import pl.korwinbieniek.Ex91to100.*;
+import pl.korwinbieniek.Method16Exercises.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -1195,6 +1196,29 @@ public class Main {
         //Ar22
         Ar22 ar22 = new Ar22();
 
+        Met1 met1 = new Met1();
+        //System.out.println(met1.minimumOfThreeNumbers(25,37,29));
+
+        Met2 met2 = new Met2();
+        //System.out.println(met2.averageOfThree(25,45,65));
+
+        Met3 met3 = new Met3();
+        //System.out.println(met3.middleChar("Silownia"));
+
+        Met4 met4 = new Met4();
+        //System.out.println(met4.numberOfVowels("w3rEsource"));
+
+        Met5 met5 = new Met5();
+
+        Met6 met6 = new Met6();
+
+        Met7 met7 = new Met7();
+
+        Met8 met8 = new Met8();
+
+        Met9 met9 = new Met9();
+
+        Met10 met10 = new Met10();
 
     }
 }
