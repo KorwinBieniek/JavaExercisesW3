@@ -1226,5 +1226,20 @@ public class Main {
         Met10 met10 = new Met10();
         //System.out.println(met10.is_LeapYear(2019));
 
+        Met11 met11 = new Met11();
+        //System.out.println(met11.isPasswordValid("abcd1234"));
+
+        Met12 met12 = new Met12();
+        //met12.printRandMatrix(10);
+
+        Met13 met13 = new Met13();
+        System.out.println(met13.calculateTriangleArea(10,5,12));
+
+        Met14 met14 = new Met14();
+
+        Met15 met15 = new Met15();
+
+        Met16 met16 = new Met16();
+
     }
 }
