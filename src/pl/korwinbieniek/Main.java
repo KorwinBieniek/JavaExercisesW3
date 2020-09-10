@@ -3,6 +3,7 @@ package pl.korwinbieniek;
 import pl.korwinbieniek.Array74Exercises.*;
 import pl.korwinbieniek.ConditionalStatement32Exercises.*;
 import pl.korwinbieniek.DataTypes15Exercises.*;
+import pl.korwinbieniek.DateCalendarTime44Exercises.*;
 import pl.korwinbieniek.Ex101to110.*;
 import pl.korwinbieniek.Ex111to120.*;
 import pl.korwinbieniek.Ex11to20.*;
@@ -1233,13 +1234,37 @@ public class Main {
         //met12.printRandMatrix(10);
 
         Met13 met13 = new Met13();
-        System.out.println(met13.calculateTriangleArea(10,5,12));
+        //System.out.println(met13.calculateTriangleArea(10,5,12));
 
         Met14 met14 = new Met14();
+        //System.out.println(met14.areaOfPentagon(6));
 
         Met15 met15 = new Met15();
+        //met15.todayDate();
 
         Met16 met16 = new Met16();
+        //met16.pairsOfPrimes();
+
+        Date1 date1 = new Date1();
+        //System.out.println(date1.createDataObject(1999,5,16));
+
+        Date2 date2 = new Date2();
+
+        Date3 date3 = new Date3();
+
+        Date4 date4 = new Date4();
+
+        Date5 date5 = new Date5();
+
+        Date6 date6 = new Date6();
+
+        Date7 date7 = new Date7();
+
+        Date8 date8 = new Date8();
+
+        Date9 date9 = new Date9();
+
+        Date10 date10 = new Date10();
 
     }
 }
