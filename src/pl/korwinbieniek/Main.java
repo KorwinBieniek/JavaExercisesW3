@@ -1249,14 +1249,19 @@ public class Main {
         //System.out.println(date1.createDataObject(1999,5,16));
 
         Date2 date2 = new Date2();
+        //date2.defaultDate();
 
         Date3 date3 = new Date3();
+        //date3.getMaximalValue();
 
         Date4 date4 = new Date4();
+        //date4.getMinimalValue();
 
         Date5 date5 = new Date5();
+        //date5.getTimeInNY();
 
         Date6 date6 = new Date6();
+        //date6.getFullDate();
 
         Date7 date7 = new Date7();
 
