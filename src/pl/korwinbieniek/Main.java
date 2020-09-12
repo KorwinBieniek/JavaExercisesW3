@@ -1264,12 +1264,16 @@ public class Main {
         //date6.getFullDate();
 
         Date7 date7 = new Date7();
+        //date7.getLastDateOfTheMonth();
 
         Date8 date8 = new Date8();
+        //date8.getFirstAndLastDay();
 
         Date9 date9 = new Date9();
+        //date9.getLastDate();
 
         Date10 date10 = new Date10();
+        date10.nameOfFirstAndLastDay();
 
     }
 }
