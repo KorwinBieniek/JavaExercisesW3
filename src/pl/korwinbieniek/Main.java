@@ -1273,7 +1273,37 @@ public class Main {
         //date9.getLastDate();
 
         Date10 date10 = new Date10();
-        date10.nameOfFirstAndLastDay();
+        //date10.nameOfFirstAndLastDay();
+
+        Date11 date11 = new Date11();
+        //date11.maxDaysInMonth();
+
+        Date12 date12 = new Date12();
+        //date12.getDaysOfTheWeekLocally();
+
+        Date13 date13 = new Date13();
+        //date13.getDayOfTheWeek();
+
+        Date14 date14 = new Date14();
+        //date14.getLocalTime();
+
+        Date15 date15 = new Date15();
+        //date15.addToLocalTime(16);
+
+        Date16 date16 = new Date16();
+        //date16.addDaysToCalendar(5);
+
+        Date17 date17 = new Date17();
+        //date17.getNextAndPreviousYear();
+
+        Date18 date18 = new Date18();
+        //date18.checkIfLeapYear(2017);
+
+        Date19 date19 = new Date19();
+        //date19.getDifferenceBetweenDates();
+
+        Date20 date20 = new Date20();
+        //date20.getCurrentTimestamp();
 
     }
 }
