@@ -1321,14 +1321,19 @@ public class Main {
         //date25.getInfoAboutCurrentYear(2020);
 
         Date26 date26 = new Date26();
+        //date26.informationAboutMonth(2);
 
         Date27 date27 = new Date27();
+        //date27.informationAboutTime();
 
         Date28 date28 = new Date28();
+        //date28.hoursBeforeCurrentTime();
 
         Date29 date29 = new Date29();
+        //date29.stringToDate("June 12, 2020");
 
         Date30 date30 = new Date30();
+        //date30.differenceBetweenDaysMonthsYears();
 
         Date31 date31 = new Date31();
 
