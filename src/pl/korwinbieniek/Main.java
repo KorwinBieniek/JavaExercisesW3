@@ -1311,5 +1311,53 @@ public class Main {
         Date22 date22 = new Date22();
         //date22.getDaysBeforeAndAfter(10);
 
+        Date23 date23 = new Date23();
+        //date23.getRemainingMonths();
+
+        Date24 date24 = new Date24();
+        //date24.formatDates();
+
+        Date25 date25 = new Date25();
+        //date25.getInfoAboutCurrentYear(2020);
+
+        Date26 date26 = new Date26();
+
+        Date27 date27 = new Date27();
+
+        Date28 date28 = new Date28();
+
+        Date29 date29 = new Date29();
+
+        Date30 date30 = new Date30();
+
+        Date31 date31 = new Date31();
+
+        Date32 date32 = new Date32();
+
+        Date33 date33 = new Date33();
+
+        Date34 date34 = new Date34();
+
+        Date35 date35 = new Date35();
+
+        Date36 date36 = new Date36();
+
+        Date37 date37 = new Date37();
+
+        Date38 date38 = new Date38();
+
+        Date39 date39 = new Date39();
+
+        Date40 date40 = new Date40();
+
+        Date41 date41 = new Date41();
+
+        Date42 date42 = new Date42();
+
+        Date43 date43 = new Date43();
+
+        Date44 date44 = new Date44();
+
+
     }
 }
