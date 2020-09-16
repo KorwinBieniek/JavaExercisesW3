@@ -1,6 +1,7 @@
 package pl.korwinbieniek;
 
 import pl.korwinbieniek.Array74Exercises.*;
+import pl.korwinbieniek.Collections.ArrayList22Exercises.*;
 import pl.korwinbieniek.ConditionalStatement32Exercises.*;
 import pl.korwinbieniek.DataTypes15Exercises.*;
 import pl.korwinbieniek.DateCalendarTime44Exercises.*;
@@ -1376,6 +1377,42 @@ public class Main {
 
         Date44 date44 = new Date44();
         //date44.extractZoneOffsets();
+
+        AL1 al1 = new AL1();
+        //al1.printArrayList();
+
+        AL2 al2 = new AL2();
+        //al2.iterateThroughArrayList();
+
+        AL3 al3 = new AL3();
+        //al3.insertFirstElement();
+
+        AL4 al4 = new AL4();
+        //al4.putElementAtSpecificPosition(5);
+
+        AL5 al5 = new AL5();
+        //al5.changeSpecificElement(12,100);
+
+        AL6 al6 = new AL6();
+        //al6.removeThirdElement();
+
+        AL7 al7 = new AL7();
+        //System.out.println(al7.findSpecificElement(111));
+
+        AL8 al8 = new AL8();
+        //al8.sortArrayList();
+
+        AL9 al9 = new AL9();
+        //al9.copyArrayList();
+
+        AL10 al10 = new AL10();
+        //al10.shuffleArrayList();
+
+        AL11 al11 = new AL11();
+        //al11.reverseArrayListOrder();
+
+        AL12 al12 = new AL12();
+        al12.extractPortionOfList(15);
 
 
     }
