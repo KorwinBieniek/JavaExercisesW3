@@ -1412,7 +1412,30 @@ public class Main {
         //al11.reverseArrayListOrder();
 
         AL12 al12 = new AL12();
-        al12.extractPortionOfList(15);
+        //al12.extractPortionOfList(15);
+
+        AL13 al13 = new AL13();
+        //al13.doesContain();
+
+        AL14 al14 = new AL14();
+        //al14.swapElements(2,6);
+
+        AL15 al15 = new AL15();
+        //al15.joinTwoLists();
+
+        AL16 al16 = new AL16();
+
+        AL17 al17 = new AL17();
+
+        AL18 al18 = new AL18();
+
+        AL19 al19 = new AL19();
+
+        AL20 al20 = new AL20();
+
+        AL21 al21 = new AL21();
+
+        AL22 al22 = new AL22();
 
 
     }
