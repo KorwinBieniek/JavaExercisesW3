@@ -1427,17 +1427,22 @@ public class Main {
         //al16.copyArray();
 
         AL17 al17 = new AL17();
-        al17.emptyTheList();
+        //al17.emptyTheList();
 
         AL18 al18 = new AL18();
+        //System.out.println(al18.isListEmpty());
 
         AL19 al19 = new AL19();
+        //al19.trimToSize();
 
         AL20 al20 = new AL20();
+        //al20.increaseListSize();
 
         AL21 al21 = new AL21();
+        //al21.replaceSecondElement(15);
 
         AL22 al22 = new AL22();
+        //al22.iterateThroughList();
 
 
     }
