@@ -1424,8 +1424,10 @@ public class Main {
         //al15.joinTwoLists();
 
         AL16 al16 = new AL16();
+        //al16.copyArray();
 
         AL17 al17 = new AL17();
+        al17.emptyTheList();
 
         AL18 al18 = new AL18();
 
