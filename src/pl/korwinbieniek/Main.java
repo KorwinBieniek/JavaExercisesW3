@@ -2,6 +2,7 @@ package pl.korwinbieniek;
 
 import pl.korwinbieniek.Array74Exercises.*;
 import pl.korwinbieniek.Collections.ArrayList22Exercises.*;
+import pl.korwinbieniek.Collections.LinkedList26Exercises.*;
 import pl.korwinbieniek.ConditionalStatement32Exercises.*;
 import pl.korwinbieniek.DataTypes15Exercises.*;
 import pl.korwinbieniek.DateCalendarTime44Exercises.*;
@@ -1443,6 +1444,41 @@ public class Main {
 
         AL22 al22 = new AL22();
         //al22.iterateThroughList();
+
+        ll1 ll1 = new ll1();
+        //ll1.appendAtTheEnd(15);
+
+        ll2 ll2 = new ll2();
+        //ll2.iterateThroughLinkedList();
+
+        ll3 ll3 = new ll3();
+        //ll3.readFromIndex(88);
+
+        ll4 ll4 = new ll4();
+        //ll4.iterateInReverse();
+
+        ll5 ll5 = new ll5();
+        //ll5.insertAtSpecificPosition(4,12);
+
+        ll6 ll6 = new ll6();
+        //ll6.insertAsFirstAndSecond(9);
+
+        ll7 ll7 = new ll7();
+        //ll7.addAtFront(100);
+
+        ll8 ll8 = new ll8();
+        //ll8.addAtTheEnd(242);
+
+        ll9 ll9 = new ll9();
+        //ll9.insertFewIntsAtSpecificPosition(12);
+
+        ll10 ll10 = new ll10();
+        //ll10.findFirstLastOccurence(12);
+
+        ll11 ll11 = new ll11();
+        //ll11.displayListAndIndexes();
+
+
 
 
     }
