@@ -1478,6 +1478,56 @@ public class Main {
         ll11 ll11 = new ll11();
         //ll11.displayListAndIndexes();
 
+        LinkedList<Integer> linkedlist = new LinkedList<>();
+        for (int i = 0; i < 10; i++) {
+            linkedlist.add(i+1);
+        }
+
+        ll12 ll12 = new ll12();
+        //ll12.removeSpecificElement(linkedlist, 4);
+
+        ll13 ll13 = new ll13();
+        //ll13.deleteFirstAndLast(linkedlist);
+
+        ll14 ll14 = new ll14();
+        //ll14.deleteAllInLinkedList(linkedlist);
+
+        ll15 ll15 = new ll15();
+        //ll15.swapTwoElementsInLinkedList(linkedlist, 2, 7);
+
+        ll16 ll16 = new ll16();
+        //ll16.shuffleLinkedList(linkedlist);
+
+        ll17 ll17 = new ll17();
+        //ll17.joinTwoLinkedLists(linkedlist);
+
+        ll18 ll18 = new ll18();
+        //ll18.copyLinkedList(linkedlist);
+
+        ll19 ll19 = new ll19();
+        //System.out.println(ll19.returnAndRemoveFirstElement(linkedlist));
+
+        ll20 ll20 = new ll20();
+        //ll20.peekFirstElement(linkedlist);
+
+        ll21 ll21 = new ll21();
+        //ll21.peekLastElement(linkedlist);
+
+        ll22 ll22 = new ll22();
+        //System.out.println(ll22.checkIfElementExistsInLinkedList(linkedlist, 10));
+
+        ll23 ll23 = new ll23();
+        //ll23.convertToArrayList(linkedlist);
+
+        ll24 ll24 = new ll24();
+        //ll24.compareTwoLinkedLists(linkedlist);
+
+        ll25 ll25 = new ll25();
+        //ll25.isLinkedListEmpty(linkedlist);
+
+        ll26 ll26 = new ll26();
+        //ll26.replaceAnElement(linkedlist, 4, 99);
+
 
 
 
