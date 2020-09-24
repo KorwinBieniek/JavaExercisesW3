@@ -2,6 +2,7 @@ package pl.korwinbieniek;
 
 import pl.korwinbieniek.Array74Exercises.*;
 import pl.korwinbieniek.Collections.ArrayList22Exercises.*;
+import pl.korwinbieniek.Collections.HastSet12Exercises.*;
 import pl.korwinbieniek.Collections.LinkedList26Exercises.*;
 import pl.korwinbieniek.ConditionalStatement32Exercises.*;
 import pl.korwinbieniek.DataTypes15Exercises.*;
@@ -31,6 +32,7 @@ import pl.korwinbieniek.Method16Exercises.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 public class Main {
@@ -1527,6 +1529,47 @@ public class Main {
 
         ll26 ll26 = new ll26();
         //ll26.replaceAnElement(linkedlist, 4, 99);
+
+        HashSet<String> hs = new HashSet<>();
+
+        for (int i = 0; i < 10; i++) {
+            hs.add("String" + (i+1));
+        }
+
+        HS1 hs1 = new HS1();
+        //System.out.println(hs1.appendToTheEnd(hs));
+
+        HS2 hs2 = new HS2();
+        //hs2.iterateThroughHashSet(hs);
+
+        HS3 hs3 = new HS3();
+        //System.out.println(hs3.getNumberOfElementInHashSet(hs));
+
+        HS4 hs4 = new HS4();
+        //System.out.println(hs4.emptyHashSet(hs));
+
+        HS5 hs5 = new HS5();
+        //System.out.println(hs5.isHashSetEmpty(hs));
+
+        HS6 hs6 = new HS6();
+        //hs6.cloneHashSet(hs);
+
+        HS7 hs7 = new HS7();
+        //hs7.convertHashSetToArray(hs);
+
+        HS8 hs8 = new HS8();
+        //hs8.convertToTreeSet(hs);
+
+        HS9 hs9 = new HS9();
+        //hs9.HashSetToList(hs);
+
+        HS10 hs10 = new HS10();
+        //hs10.compareHashSets(hs);
+
+        HS11 hs11 = new HS11();
+        //hs11.retainSameElement(hs);
+
+        HS12 hs12 = new HS12();
 
 
 
