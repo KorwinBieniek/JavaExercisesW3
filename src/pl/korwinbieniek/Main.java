@@ -2,6 +2,7 @@ package pl.korwinbieniek;
 
 import pl.korwinbieniek.Array74Exercises.*;
 import pl.korwinbieniek.Collections.ArrayList22Exercises.*;
+import pl.korwinbieniek.Collections.HashMap12Exercises.*;
 import pl.korwinbieniek.Collections.HastSet12Exercises.*;
 import pl.korwinbieniek.Collections.LinkedList26Exercises.*;
 import pl.korwinbieniek.ConditionalStatement32Exercises.*;
@@ -30,10 +31,7 @@ import pl.korwinbieniek.Ex91to100.*;
 import pl.korwinbieniek.Method16Exercises.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.*;
 
 public class Main {
 
@@ -1570,8 +1568,55 @@ public class Main {
         //hs11.retainSameElement(hs);
 
         HS12 hs12 = new HS12();
+        //hs12.clearHashSet(hs);
 
+        HashMap<Integer, String> hm = new HashMap<>();
 
+        hm.put(1, "Red");
+        hm.put(2, "Black");
+        hm.put(3, "Blue");
+        hm.put(4, "White");
+        hm.put(5, "Yellow");
+        hm.put(6, "Green");
+        hm.put(7, "Grey");
+        hm.put(8, "Pink");
+        hm.put(9, "Brown");
+
+        HM1 hm1 = new HM1();
+        //hm1.associateKeyWithValue(hm);
+
+        HM2 hm2 = new HM2();
+        //System.out.println(hm2.countKeys(hm));
+
+        HM3 hm3 = new HM3();
+        //hm3.copyHashMap(hm);
+
+        HM4 hm4 = new HM4();
+        //hm4.removeEverythingFromHashMap(hm);
+
+        HM5 hm5 = new HM5();
+        //hm5.hasKey(hm);
+
+        HM6 hm6 = new HM6();
+        //hm6.copyHashMap(hm);
+
+        HM7 hm7 = new HM7();
+        //hm7.containsSpecificKey(hm, 4);
+
+        HM8 hm8 = new HM8();
+        //hm8.containgSpecificValue(hm, "Black");
+
+        HM9 hm9 = new HM9();
+        //hm9.setViewForHashMap(hm);
+
+        HM10 hm10 = new HM10();
+        //hm10.containsSpecificKey(hm, 4);
+
+        HM11 hm11 = new HM11();
+        //hm11.getSetKeyView(hm);
+
+        HM12 hm12 = new HM12();
+        //hm12.getCollectionView(hm);
 
 
     }
