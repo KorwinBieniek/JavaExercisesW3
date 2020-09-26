@@ -1199,6 +1199,10 @@ public class Main {
         //Ar22
         Ar22 ar22 = new Ar22();
 
+        Ar59 ar59 = new Ar59();
+        int[] arrMultiply = {2,3,5,7,-7,5,8,-5};
+        System.out.println(ar59.maximumProduct(arrMultiply));
+
         Met1 met1 = new Met1();
         //System.out.println(met1.minimumOfThreeNumbers(25,37,29));
 
