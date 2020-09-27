@@ -1186,22 +1186,30 @@ public class Main {
 
         //Ar19
         Ar19 ar19 = new Ar19();
+        int[][] matrix1 = {{1,2,3,4,5},{2,3,4,5,6},{3,4,5,6,7}};
+        int[][] matrix2 = {{9,8,7,6,5},{8,7,6,5,4},{7,6,5,4,3}};
+
+        //ar19.addTwoMatrices(matrix1,matrix2);
 
 
         //Ar20
         Ar20 ar20 = new Ar20();
+        //ar20.convertArrayToArrayList();
 
 
         //Ar21
         Ar21 ar21 = new Ar21();
+        //System.out.println(Arrays.toString(ar21.ArrayListToArray()));
 
 
+        int[] arrPairsOfElement = {2,7,4,-5,11,5,20};
         //Ar22
         Ar22 ar22 = new Ar22();
+        //ar22.pairsOfNumbersEqualValue(15,arrPairsOfElement);
 
         Ar59 ar59 = new Ar59();
         int[] arrMultiply = {2,3,5,7,-7,5,8,-5};
-        System.out.println(ar59.maximumProduct(arrMultiply));
+        //System.out.println(ar59.maximumProduct(arrMultiply));
 
         Met1 met1 = new Met1();
         //System.out.println(met1.minimumOfThreeNumbers(25,37,29));
