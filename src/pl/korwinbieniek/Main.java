@@ -1207,6 +1207,24 @@ public class Main {
         Ar22 ar22 = new Ar22();
         //ar22.pairsOfNumbersEqualValue(15,arrPairsOfElement);
 
+        Ar23 ar23 = new Ar23();
+        int[] arrCheckEquality1 = {1,2,3,4,5,6,7,8,9,10};
+        int[] arrCheckEquality2 = {111,2,3,3,5,6,7,6,9,10};
+
+        //System.out.println(Arrays.toString(ar23.checkEqualityOfArray(arrCheckEquality1, arrCheckEquality2)));
+
+        Ar24 ar24 = new Ar24();
+        int[] missingArr = {1,2,3,4,5,6,7,8,9};
+        //ar24.missingValueFromArray(missingArr);
+
+        Ar25 ar25 = new Ar25();
+        //ar25.findCommonElementsFromThreeSortedArrays();
+
+        Ar26 ar26 = new Ar26();
+        int[] arrayWithZeros = {1,2,0,5,3,0,2,2,0,0,0,3,1,0};
+        //ar26.putAllZerosToTheRight(arrayWithZeros);
+
+
         Ar59 ar59 = new Ar59();
         int[] arrMultiply = {2,3,5,7,-7,5,8,-5};
         //System.out.println(ar59.maximumProduct(arrMultiply));
