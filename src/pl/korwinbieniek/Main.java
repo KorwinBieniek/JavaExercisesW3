@@ -1,42 +1,13 @@
 package pl.korwinbieniek;
 
-import pl.korwinbieniek.Array74Exercises.*;
-import pl.korwinbieniek.Collections.ArrayList22Exercises.*;
-import pl.korwinbieniek.Collections.HashMap12Exercises.*;
-import pl.korwinbieniek.Collections.HastSet12Exercises.*;
-import pl.korwinbieniek.Collections.LinkedList26Exercises.*;
-import pl.korwinbieniek.ConditionalStatement32Exercises.*;
-import pl.korwinbieniek.DataTypes15Exercises.*;
-import pl.korwinbieniek.DateCalendarTime44Exercises.*;
-import pl.korwinbieniek.Ex101to110.*;
-import pl.korwinbieniek.Ex111to120.*;
-import pl.korwinbieniek.Ex11to20.*;
-import pl.korwinbieniek.Ex121to130.*;
-import pl.korwinbieniek.Ex131to140.*;
-import pl.korwinbieniek.Ex141to150.*;
-import pl.korwinbieniek.Ex151to160.*;
-import pl.korwinbieniek.Ex161to170.*;
-import pl.korwinbieniek.Ex171to180.*;
-import pl.korwinbieniek.Ex181to190.*;
-import pl.korwinbieniek.Ex191to200.*;
-import pl.korwinbieniek.Ex1to10.*;
-import pl.korwinbieniek.Ex21to30.*;
-import pl.korwinbieniek.Ex31to40.*;
-import pl.korwinbieniek.Ex41to50.*;
-import pl.korwinbieniek.Ex51to60.*;
-import pl.korwinbieniek.Ex61to70.*;
-import pl.korwinbieniek.Ex71to80.*;
-import pl.korwinbieniek.Ex81to90.*;
-import pl.korwinbieniek.Ex91to100.*;
-import pl.korwinbieniek.Method16Exercises.*;
+import pl.korwinbieniek.StringExercises.*;
 
 import java.io.IOException;
-import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        //Ex1
+        /*//Ex1
         Ex1 hello = new Ex1();
         //hello.helloWorld();
         //Ex2
@@ -468,7 +439,7 @@ public class Main {
         //Ex134 ex134 = new Ex134();
         //System.out.println(ex134.climbStairs(5));
 
-        /*int day = 2, month = 7;
+        *//*int day = 2, month = 7;
         for (int i = 0; i < 30; i++) {
             day += 3;
             if(day > 31)
@@ -479,7 +450,7 @@ public class Main {
             if(day < 10)
             System.out.println("0" + day + ".0" + month);
             else System.out.println(day + ".0" + month);
-        }*/
+        }*//*
 //Ex135
         Ex135 ex135 = new Ex135();
         LinkedList<Integer> list = new LinkedList<Integer>();
@@ -488,11 +459,11 @@ public class Main {
             list.add(i);
         }
 
-        /*ex135.deleteDuplicatedLinkedList(list);
+        *//*ex135.deleteDuplicatedLinkedList(list);
 
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i) + " ");
-        }*/
+        }*//*
 
 //Ex136
         Ex136 ex136 = new Ex136();
@@ -536,35 +507,10 @@ public class Main {
 //Ex145
         Ex145 ex145 = new Ex145();
         //ex145.deleteNth(9,list1);
+*/
 
-//Ex146
-        Ex146 ex146 = new Ex146();
-        //
-//Ex147
-        Ex147 ex147 = new Ex147();
 
-//Ex148
-        Ex148 ex148 = new Ex148();
-
-//Ex149
-        Ex149 ex149 = new Ex149();
-
-//Ex150
-        Ex150 ex150 = new Ex150();
-
-//Ex151
-        Ex151 ex151 = new Ex151();
-        //ex151.printValues();
-
-//Ex152
-        Ex152 ex152 = new Ex152();
-        //ex152.numbersEqual();
-
-//Ex153
-        Ex153 ex153 = new Ex153();
-        //ex153.Between0and1();
-
-//Ex154
+/*//Ex154
         Ex154 ex154 = new Ex154();
         boolean[][] arr = {{true, false, true},
                 {false, true, false}};
@@ -582,8 +528,6 @@ public class Main {
         Ex156 ex156 = new Ex156();
         //System.out.println(ex156.maxLog(2350));
 
-//Ex157
-        Ex157 ex157 = new Ex157();
 
 //Ex158
         Ex158 ex158 = new Ex158();
@@ -650,11 +594,7 @@ public class Main {
         Ex172 ex172 = new Ex172();
         //System.out.println(ex172.smallerThanSize(arr7,arr6));
 
-//Ex173
-        Ex173 ex173 = new Ex173();
 
-//Ex174
-        Ex174 ex174 = new Ex174();
 
 //Ex175
         Ex175 ex175 = new Ex175();
@@ -665,15 +605,10 @@ public class Main {
         Ex176 ex176 = new Ex176();
         //System.out.println(ex176.secludeOddAndEven(arr7));
 
-//Ex177
-        Ex177 ex177 = new Ex177();
 
 //Ex178
         Ex178 ex178 = new Ex178();
         //ex178.longestConsecutiveSubsequence(arr1);
-
-//Ex179
-        Ex179 ex179 = new Ex179();
 
 //Ex180
         Ex180 ex180 = new Ex180();
@@ -683,30 +618,9 @@ public class Main {
         Ex181 ex181 = new Ex181();
         //System.out.println(ex181.lengthOfTheLastWord("pies i kot "));
 
-//Ex182
-        Ex182 ex182 = new Ex182();
-
 //Ex183
         Ex183 ex183 = new Ex183();
         //System.out.println(ex183.addDigits(5321));
-
-//Ex184
-        Ex184 ex184 = new Ex184();
-
-//Ex185
-        Ex185 ex185 = new Ex185();
-
-//Ex186
-        Ex186 ex186 = new Ex186();
-
-//Ex187
-        Ex187 ex187 = new Ex187();
-
-//Ex188
-        Ex188 ex188 = new Ex188();
-
-//Ex189
-        Ex189 ex189 = new Ex189();
 
 //Ex190
         Ex190 ex190 = new Ex190();
@@ -715,12 +629,6 @@ public class Main {
 //Ex191
         Ex191 ex191 = new Ex191();
         //System.out.println(ex191.sumOfSquares(15));
-
-//Ex192
-        Ex192 ex192 = new Ex192();
-
-//Ex193
-        Ex193 ex193 = new Ex193();
 
 //Ex194
         Ex194 ex194 = new Ex194();
@@ -731,8 +639,6 @@ public class Main {
         Ex195 ex195 = new Ex195();
         //System.out.println("Can these numbers form a triangle: " + ex195.canItFormTriangle(14,6,8));
 
-//Ex196
-        Ex196 ex196 = new Ex196();
 
 //Ex197
         Ex197 ex197 = new Ex197();
@@ -740,165 +646,10 @@ public class Main {
 
 //Ex198
         Ex198 ex198 = new Ex198();
-        //System.out.println(ex198.primePosition(13));
+        //System.out.println(ex198.primePosition(13));*/
 
-//Ex199
-        Ex199 ex199 = new Ex199();
 
-//Ex200
-        Ex200 ex200 = new Ex200();
-
-////Ex201
-//        Ex201 ex201 = new Ex201();
-//
-////Ex202
-//        Ex202 ex202 = new Ex202();
-//
-////Ex203
-//        Ex203 ex203 = new Ex203();
-//
-////Ex204
-//        Ex204 ex204 = new Ex204();
-//
-////Ex205
-//        Ex205 ex205 = new Ex205();
-//
-////Ex206
-//        Ex206 ex206 = new Ex206();
-//
-////Ex207
-//        Ex207 ex207 = new Ex207();
-//
-////Ex208
-//        Ex208 ex208 = new Ex208();
-//
-////Ex209
-//        Ex209 ex209 = new Ex209();
-//
-////Ex210
-//        Ex210 ex210 = new Ex210();
-//
-////Ex211
-//        Ex211 ex211 = new Ex211();
-//
-////Ex212
-//        Ex212 ex212 = new Ex212();
-//
-////Ex213
-//        Ex213 ex213 = new Ex213();
-//
-////Ex214
-//        Ex214 ex214 = new Ex214();
-//
-////Ex215
-//        Ex215 ex215 = new Ex215();
-//
-////Ex216
-//        Ex216 ex216 = new Ex216();
-//
-////Ex217
-//        Ex217 ex217 = new Ex217();
-//
-////Ex218
-//        Ex218 ex218 = new Ex218();
-//
-////Ex219
-//        Ex219 ex219 = new Ex219();
-//
-////Ex220
-//        Ex220 ex220 = new Ex220();
-//
-////Ex221
-//        Ex221 ex221 = new Ex221();
-//
-////Ex222
-//        Ex222 ex222 = new Ex222();
-//
-////Ex223
-//        Ex223 ex223 = new Ex223();
-//
-////Ex224
-//        Ex224 ex224 = new Ex224();
-//
-////Ex225
-//        Ex225 ex225 = new Ex225();
-//
-////Ex226
-//        Ex226 ex226 = new Ex226();
-//
-////Ex227
-//        Ex227 ex227 = new Ex227();
-//
-////Ex228
-//        Ex228 ex228 = new Ex228();
-//
-////Ex229
-//        Ex229 ex229 = new Ex229();
-//
-////Ex230
-//        Ex230 ex230 = new Ex230();
-//
-////Ex231
-//        Ex231 ex231 = new Ex231();
-//
-////Ex232
-//        Ex232 ex232 = new Ex232();
-//
-////Ex233
-//        Ex233 ex233 = new Ex233();
-//
-////Ex234
-//        Ex234 ex234 = new Ex234();
-//
-////Ex235
-//        Ex235 ex235 = new Ex235();
-//
-////Ex236
-//        Ex236 ex236 = new Ex236();
-//
-////Ex237
-//        Ex237 ex237 = new Ex237();
-//
-////Ex238
-//        Ex238 ex238 = new Ex238();
-//
-////Ex239
-//        Ex239 ex239 = new Ex239();
-//
-////Ex240
-//        Ex240 ex240 = new Ex240();
-//
-////Ex241
-//        Ex241 ex241 = new Ex241();
-//
-////Ex242
-//        Ex242 ex242 = new Ex242();
-//
-////Ex243
-//        Ex243 ex243 = new Ex243();
-//
-////Ex244
-//        Ex244 ex244 = new Ex244();
-//
-////Ex245
-//        Ex245 ex245 = new Ex245();
-//
-////Ex246
-//        Ex246 ex246 = new Ex246();
-//
-////Ex247
-//        Ex247 ex247 = new Ex247();
-//
-////Ex248
-//        Ex248 ex248 = new Ex248();
-//
-////Ex249
-//        Ex249 ex249 = new Ex249();
-//
-////Ex250
-//        Ex250 ex250 = new Ex250();
-
-        //DT1
+        /*//DT1
         DT1 dt1 = new DT1();
         //System.out.println(dt1.FahrenheitToCelsius());
 
@@ -1647,6 +1398,26 @@ public class Main {
 
         HM12 hm12 = new HM12();
         //hm12.getCollectionView(hm);
+*/
+
+        /*Str6 str6 = new Str6();
+        str6.compareTwoStrings("piees lubi kota", "piees lubi kota");
+
+        Str7 str7 = new Str7();
+        System.out.println(str7.concatenateAtTheEnd("pies", " to nie kot!"));*/
+
+        /*Str8 str8 = new Str8();
+        System.out.println(str8.doesItContainString("Koty lubia psy", "ias"));
+
+        Str30 str30 = new Str30();
+        System.out.println(str30.stringToUpper("korwin"));
+
+        Str31 str31 = new Str31();
+        System.out.print(str31.trimString("    psy lub     "));
+        System.out.print(" koty");*/
+
+        Str45 str46 = new Str45();
+        System.out.println(str46.reverseWordsInSentence("raki lubia latac"));
 
 
     }
