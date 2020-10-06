@@ -1416,9 +1416,11 @@ public class Main {
         System.out.print(str31.trimString("    psy lub     "));
         System.out.print(" koty");*/
 
-        Str45 str46 = new Str45();
-        System.out.println(str46.reverseWordsInSentence("raki lubia latac"));
+        /*Str45 str46 = new Str45();
+        System.out.println(str46.reverseWordsInSentence("raki lubia latac"));*/
 
+        //Str26 str26 = new Str26();
+        //System.out.println(str26.startsWith("Red dog jumps", "Red dog howls"));
 
     }
 }
